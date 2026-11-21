@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="zh-TW">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>魔法王國攻略資訊站｜大佬群CSL製作</title>
-  <meta name="description" content="魔法王國（Magical Land）第四區／第五區紅旗藥水需求、大門鑰匙、怪物血量與獎勵一次看。支援 9 種語言。">
+  <title>魔法王國攻略資訊站</title>
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#071c1d">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="魔法王國攻略資訊站｜大佬群CSL製作">
+  <meta property="og:title" content="魔法王國攻略資訊站">
   <meta property="og:description" content="藥水需求、大門鑰匙、怪物一次看，支援 9 種語言。">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,13 +20,16 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <script type="module" src="assets/js/app.js"></script>
 </head>
+
 <body>
   <a class="skip-link" href="#main" data-i18n="nav.skip">跳到主要內容</a>
 
   <header class="site-header">
     <div class="site-header__bar container">
       <a class="brand" href="#top">
-        <svg class="ico brand__logo" aria-hidden="true"><use href="#i-background"/></svg>
+        <svg class="ico brand__logo" aria-hidden="true">
+          <use href="#i-background" />
+        </svg>
         <span class="brand__name" data-i18n="site.short">魔法王國</span>
       </a>
 
@@ -40,7 +43,8 @@
       </nav>
 
       <div class="header-actions">
-        <button type="button" class="lang-btn" popovertarget="lang-popover" data-i18n-attr="aria-label:common.language;title:common.language">
+        <button type="button" class="lang-btn" popovertarget="lang-popover"
+          data-i18n-attr="aria-label:common.language;title:common.language">
           <span aria-hidden="true">🌐</span> <span id="lang-current">中文</span>
         </button>
         <div id="lang-popover" class="lang-popover" popover>
@@ -65,10 +69,18 @@
           </span>
         </div>
         <ul class="hero__cards" role="list">
-          <li><a class="hero-card" href="#zone4"><svg class="ico" aria-hidden="true"><use href="#m-vineChucky"/></svg><span data-i18n="nav.zone4">第四區藥水</span></a></li>
-          <li><a class="hero-card" href="#zone5"><svg class="ico" aria-hidden="true"><use href="#m-lavaMonster"/></svg><span data-i18n="nav.zone5">第五區藥水</span></a></li>
-          <li><a class="hero-card" href="#gates"><svg class="ico" aria-hidden="true"><use href="#i-goldKey"/></svg><span data-i18n="nav.gates">大門與鑰匙</span></a></li>
-          <li><a class="hero-card" href="#monsters"><svg class="ico" aria-hidden="true"><use href="#m-cyclops"/></svg><span data-i18n="nav.monsters">怪物圖鑑</span></a></li>
+          <li><a class="hero-card" href="#zone4"><svg class="ico" aria-hidden="true">
+                <use href="#m-vineChucky" />
+              </svg><span data-i18n="nav.zone4">第四區藥水</span></a></li>
+          <li><a class="hero-card" href="#zone5"><svg class="ico" aria-hidden="true">
+                <use href="#m-lavaMonster" />
+              </svg><span data-i18n="nav.zone5">第五區藥水</span></a></li>
+          <li><a class="hero-card" href="#gates"><svg class="ico" aria-hidden="true">
+                <use href="#i-goldKey" />
+              </svg><span data-i18n="nav.gates">大門與鑰匙</span></a></li>
+          <li><a class="hero-card" href="#monsters"><svg class="ico" aria-hidden="true">
+                <use href="#m-cyclops" />
+              </svg><span data-i18n="nav.monsters">怪物圖鑑</span></a></li>
         </ul>
       </div>
     </section>
@@ -119,13 +131,17 @@
       <p class="site-footer__contact">
         <span data-i18n="footer.contactLead">聯絡網頁開發者：</span><a
           href="https://line.me/ti/g2/vFTIlDhsyEN9wo0SYbIpDBL9AsHbK-mbHTS5YA?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default"
-          target="_blank" rel="noopener noreferrer" data-i18n="footer.contactLink">加入 LINE 社群</a><span data-i18n="footer.contactAfter">，加入後請標記 @CSL</span>
+          target="_blank" rel="noopener noreferrer" data-i18n="footer.contactLink">加入 LINE 社群</a><span
+          data-i18n="footer.contactAfter">，加入後請標記 @CSL</span>
       </p>
       <!-- 頁尾署名：© {year} 大佬群CSL製作（year 由 app.js 自動帶入當年） -->
       <p class="site-footer__credit" lang="zh-TW">© <span id="year">2026</span> 大佬群CSL製作</p>
     </div>
   </footer>
 
-  <noscript><p class="noscript">請開啟 JavaScript 以顯示完整資料。Please enable JavaScript.</p></noscript>
+  <noscript>
+    <p class="noscript">請開啟 JavaScript 以顯示完整資料。Please enable JavaScript.</p>
+  </noscript>
 </body>
+
 </html>
