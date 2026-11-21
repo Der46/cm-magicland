@@ -83,11 +83,14 @@
     "jokerCard": "Thẻ Joker",
     "bunnyCoin": "Xu Thỏ",
     "gems": "Đá quý",
-    "frame": "Khung mới",
-    "background": "Nền mới",
-    "mystery": "Quà bí ẩn"
+    "mystery": "Quà bí ẩn",
+    "diamondCard": "Thẻ Kim cương mới",
+    "seasonCard": "Thẻ Mùa mới"
   },
   "footer": {
-    "disclaimer": "Thông tin không chính thức do cộng đồng người chơi tổng hợp, không liên quan nhà phát hành. Số liệu có thể thay đổi theo bản cập nhật."
+    "disclaimer": "Thông tin không chính thức do cộng đồng người chơi tổng hợp, không liên quan nhà phát hành.\nSố liệu có thể thay đổi theo bản cập nhật.",
+    "contactLead": "Liên hệ nhà phát triển: ",
+    "contactLink": "tham gia cộng đồng LINE",
+    "contactAfter": ", sau đó tag @CSL."
   }
 }

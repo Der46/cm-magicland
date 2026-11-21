@@ -83,11 +83,14 @@
     "jokerCard": "Coringa",
     "bunnyCoin": "Moedas coelho",
     "gems": "Gemas",
-    "frame": "Moldura nova",
-    "background": "Fundo novo",
-    "mystery": "Prêmio misterioso"
+    "mystery": "Prêmio misterioso",
+    "diamondCard": "Nova carta de diamante",
+    "seasonCard": "Nova carta de temporada"
   },
   "footer": {
-    "disclaimer": "Informação não oficial reunida pela comunidade de jogadores; sem vínculo com a publicadora do jogo. Os valores podem mudar com atualizações."
+    "disclaimer": "Informação não oficial reunida pela comunidade de jogadores; sem vínculo com a publicadora do jogo.\nOs valores podem mudar com atualizações.",
+    "contactLead": "Fale com o desenvolvedor: ",
+    "contactLink": "entre na comunidade do LINE",
+    "contactAfter": " e marque @CSL."
   }
 }

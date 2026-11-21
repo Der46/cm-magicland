@@ -10,7 +10,7 @@ assets/css/style.css  全部樣式（@layer 分層）
 assets/js/app.js      主程式：繪製各區塊、事件委派
 assets/js/i18n.js     i18n：語言偵測、載入 JSON、t()、套用 data-i18n
 assets/js/data.js     所有遊戲資料（藥水、大門、怪物、語言清單）
-assets/js/icons.js    SVG sprite：道具圖示（#i-{id}）與怪物造型（#m-{name}），原創繪製
+assets/js/icons.js    SVG sprite：道具圖示（#i-{id}）、怪物造型（#m-{name}）、大門場景（#g-{scene}：arch／waterfall／lava），原創繪製
 locales/*.json        9 種語言的翻譯字串
 favicon.svg
 .nojekyll             讓 GitHub Pages 跳過 Jekyll
@@ -29,7 +29,10 @@ python -m http.server 8000
 
 1. **RWD**：手機（≥320px）到桌機都要正常；導覽列在 `width < 60rem` 時變第二列可水平捲動。
 2. **9 種語言**：`zh-TW`（預設 / fallback）、`en`、`vi`、`ja`、`ko`、`th`、`id`、`es`、`pt`。語言清單在 `data.js` 的 `LANGUAGES`，選單顯示母語名稱。
-3. **頁尾署名**：`© {year} 大佬群CSL製作`，`{year}` 由 `app.js` 以 `new Date().getFullYear()` 帶入（`#year`）。此文字**不翻譯**。
+3. **頁尾**：
+   - 免責聲明分兩行（locale 字串內用 `\n`，CSS `white-space: pre-line`）。
+   - 聯絡網頁開發者：LINE 社群邀請連結（`index.html` 內 `.site-footer__contact`），文字請使用者加入後標記 @CSL（`footer.contactLead / contactLink / contactAfter`）。
+   - 署名 `© {year} 大佬群CSL製作`，`{year}` 由 `app.js` 以 `new Date().getFullYear()` 帶入（`#year`）。此文字**不翻譯**。
 4. **浮水印**：標題 `h1` 旁的 `.watermark` 斜放圓形印章（`rotate: 18deg`，雙圈框線、半透明），文字固定為「大佬群 / CSL / 製作」，**不翻譯、不可刪除**。不要改回緞帶造型。
 5. **現代寫法**：原生 ES Modules（top-level await）、CSS `@layer`、原生巢狀、`color-mix()`、container queries、`:has()`、scroll-driven animation、Popover API + `@starting-style`、View Transitions API、SVG sprite（`<use>` + CSS 自訂屬性換色）、邏輯屬性、media query range syntax。不要引入框架或打包工具。
 6. **區塊順序**：第四區藥水 → 第五區藥水 → 大門與鑰匙 → 怪物圖鑑（導覽列、首頁卡片、`renderAll()` 都依此順序）。

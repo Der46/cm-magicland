@@ -83,11 +83,14 @@
     "jokerCard": "鬼牌",
     "bunnyCoin": "兔子幣",
     "gems": "寶石",
-    "frame": "新相框",
-    "background": "新背景",
-    "mystery": "神秘獎勵"
+    "mystery": "神秘獎勵",
+    "diamondCard": "新鑽石卡",
+    "seasonCard": "新季節卡"
   },
   "footer": {
-    "disclaimer": "本站為玩家社群整理的非官方資訊，與遊戲官方無關；數值可能隨版本更新而變動。"
+    "disclaimer": "本站為玩家社群整理的非官方資訊，與遊戲官方無關；\n數值可能隨版本更新而變動。",
+    "contactLead": "聯絡網頁開發者：",
+    "contactLink": "加入 LINE 社群",
+    "contactAfter": "，加入後請標記 @CSL"
   }
 }

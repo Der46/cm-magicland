@@ -83,11 +83,14 @@
     "jokerCard": "Kartu Joker",
     "bunnyCoin": "Koin Kelinci",
     "gems": "Permata",
-    "frame": "Bingkai Baru",
-    "background": "Latar Baru",
-    "mystery": "Hadiah Misteri"
+    "mystery": "Hadiah Misteri",
+    "diamondCard": "Kartu Berlian Baru",
+    "seasonCard": "Kartu Musim Baru"
   },
   "footer": {
-    "disclaimer": "Info tidak resmi yang dihimpun komunitas pemain; tidak berafiliasi dengan penerbit game. Angka dapat berubah seiring pembaruan."
+    "disclaimer": "Info tidak resmi yang dihimpun komunitas pemain; tidak berafiliasi dengan penerbit game.\nAngka dapat berubah seiring pembaruan.",
+    "contactLead": "Hubungi pengembang: ",
+    "contactLink": "gabung komunitas LINE",
+    "contactAfter": ", lalu tandai @CSL."
   }
 }

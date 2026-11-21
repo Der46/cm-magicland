@@ -83,11 +83,14 @@
     "jokerCard": "조커 카드",
     "bunnyCoin": "토끼 코인",
     "gems": "보석",
-    "frame": "새 프레임",
-    "background": "새 배경",
-    "mystery": "미스터리 보상"
+    "mystery": "미스터리 보상",
+    "diamondCard": "새 다이아몬드 카드",
+    "seasonCard": "새 시즌 카드"
   },
   "footer": {
-    "disclaimer": "플레이어 커뮤니티가 정리한 비공식 정보이며 게임사와 무관합니다. 수치는 업데이트에 따라 달라질 수 있습니다."
+    "disclaimer": "플레이어 커뮤니티가 정리한 비공식 정보이며 게임사와 무관합니다.\n수치는 업데이트에 따라 달라질 수 있습니다.",
+    "contactLead": "개발자 문의: ",
+    "contactLink": "LINE 커뮤니티에 참여",
+    "contactAfter": "한 뒤 @CSL을 태그해 주세요."
   }
 }

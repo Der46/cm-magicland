@@ -83,11 +83,14 @@
     "jokerCard": "Comodín",
     "bunnyCoin": "Monedas conejo",
     "gems": "Gemas",
-    "frame": "Marco nuevo",
-    "background": "Fondo nuevo",
-    "mystery": "Premio misterioso"
+    "mystery": "Premio misterioso",
+    "diamondCard": "Nueva carta de diamante",
+    "seasonCard": "Nueva carta de temporada"
   },
   "footer": {
-    "disclaimer": "Información no oficial recopilada por la comunidad de jugadores; sin relación con la editora del juego. Los valores pueden cambiar con las actualizaciones."
+    "disclaimer": "Información no oficial recopilada por la comunidad de jugadores; sin relación con la editora del juego.\nLos valores pueden cambiar con las actualizaciones.",
+    "contactLead": "Contacta al desarrollador: ",
+    "contactLink": "únete a la comunidad de LINE",
+    "contactAfter": " y etiqueta a @CSL."
   }
 }

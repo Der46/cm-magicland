@@ -104,7 +104,10 @@ function renderGates() {
                 <span class="gate__no">${g.no}</span>
                 <span class="gate__island">${esc(t('common.island', { n: g.island }))}</span>
               </header>
-              ${itemList(g.rewards)}
+              <div class="gate__body">
+                ${icon(`g-${g.scene}`, 'gate__art')}
+                ${itemList(g.rewards)}
+              </div>
               <p class="gate__cost">${esc(t('gates.cost'))}
                 <strong>${g.cost}</strong> ${esc(t(`gates.${kind}Unit`))} ${icon(keyIcon, 'ico ico--sm')}</p>
             </li>`,

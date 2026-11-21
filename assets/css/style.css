@@ -159,7 +159,15 @@
     text-align: center;
     & .container { display: grid; gap: 0.5rem; }
   }
-  .site-footer__disclaimer { font-size: 0.85rem; opacity: 0.75; max-inline-size: 60ch; margin-inline: auto; }
+  /* 免責聲明在 locale 字串中以 \n 分兩行 */
+  .site-footer__disclaimer { font-size: 0.85rem; opacity: 0.75; max-inline-size: 60ch; margin-inline: auto; white-space: pre-line; }
+  .site-footer__contact {
+    font-size: 0.9rem;
+    & a {
+      color: #06c755; font-weight: 700; text-decoration: underline; text-underline-offset: 0.2em;
+      &:hover { color: #4ade80; }
+    }
+  }
   .site-footer__credit { font-weight: 700; letter-spacing: 0.04em; margin-block-start: 0.5rem; }
 }
 
@@ -297,11 +305,15 @@
     display: grid; gap: var(--space); align-items: start;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
   }
+  /* 標題用深色底＋金屬色框，讓銅／金鑰匙圖示清楚可見 */
   .gate-col__title {
     display: flex; align-items: center; gap: 0.5rem; margin-block-end: 0.75rem;
     font-family: var(--font-display), var(--font-body); font-size: 1.4rem;
-    padding: 0.5rem 1rem; border-radius: 999px; color: #fff;
-    background: linear-gradient(90deg, var(--accent), color-mix(in oklab, var(--accent) 60%, #000));
+    padding: 0.5rem 1rem; border-radius: 999px; color: #fdf2e0;
+    background: linear-gradient(90deg, #2a1a10, #1a100a);
+    border: 2px solid var(--accent);
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.06);
+    & .ico { font-size: 1.3em; }
   }
   .gate-col--bronze { --accent: var(--bronze); }
   .gate-col--gold { --accent: var(--gold-deep); }
@@ -316,6 +328,15 @@
     background: var(--accent); color: #fff; font-weight: 800;
   }
   .gate__island { font-weight: 700; }
+  .gate__body {
+    display: grid; grid-template-columns: 7.5rem 1fr; align-items: center; gap: 0.75rem;
+    & .items { align-content: center; }
+  }
+  .gate__art {
+    inline-size: 7.5rem; block-size: 6rem;
+    border-radius: 0.6rem; border: 2px solid var(--accent);
+    box-shadow: 0 4px 10px -4px rgb(0 0 0 / 0.6);
+  }
   .gate__cost {
     justify-self: end; font-size: 0.9rem; color: var(--muted);
     & strong { font-size: 1.3rem; color: var(--text); }

@@ -83,11 +83,14 @@
     "jokerCard": "Joker Card",
     "bunnyCoin": "Bunny Coins",
     "gems": "Gems",
-    "frame": "New Frame",
-    "background": "New Background",
-    "mystery": "Mystery Reward"
+    "mystery": "Mystery Reward",
+    "diamondCard": "New Diamond Card",
+    "seasonCard": "New Season Card"
   },
   "footer": {
-    "disclaimer": "Unofficial fan-made info compiled by the player community; not affiliated with the game's publisher. Values may change with updates."
+    "disclaimer": "Unofficial fan-made info compiled by the player community; not affiliated with the game's publisher.\nValues may change with updates.",
+    "contactLead": "Contact the developer: ",
+    "contactLink": "join the LINE community",
+    "contactAfter": ", then tag @CSL."
   }
 }

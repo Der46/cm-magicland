@@ -11,17 +11,17 @@
 /** 大門與鑰匙 */
 export const GATES = {
   bronze: [
-    { no: 1, island: 2, cost: 2, rewards: [{ id: 'chest', qty: 3 }, { id: 'frame', isNew: true }, { id: 'background', isNew: true }] },
-    { no: 2, island: 3, cost: 5, rewards: [{ id: 'bomb', qty: 3, note: '×2' }, { id: 'cannon', qty: 3 }] },
-    { no: 3, island: 4, cost: 15, rewards: [{ id: 'lightningChest', qty: 2 }, { id: 'energy', amount: 10_000, qty: 2 }, { id: 'goldKey', qty: 1 }] },
-    { no: 4, island: 4, cost: 10, rewards: [{ id: 'bunnyCoin', amount: 600, qty: 2 }, { id: 'lightningChest', qty: 2 }, { id: 'purpleChest', qty: 1 }] },
+    { no: 1, island: 2, scene: 'arch', cost: 2, rewards: [{ id: 'chest', qty: 3 }, { id: 'diamondCard' }, { id: 'seasonCard' }] },
+    { no: 2, island: 3, scene: 'waterfall', cost: 5, rewards: [{ id: 'bomb', qty: 3, note: '×2' }, { id: 'cannon', qty: 3 }] },
+    { no: 3, island: 4, scene: 'waterfall', cost: 15, rewards: [{ id: 'lightningChest', qty: 2 }, { id: 'energy', amount: 10_000, qty: 2 }, { id: 'goldKey', qty: 1 }] },
+    { no: 4, island: 4, scene: 'waterfall', cost: 10, rewards: [{ id: 'bunnyCoin', amount: 600, qty: 2 }, { id: 'lightningChest', qty: 2 }, { id: 'purpleChest', qty: 1 }] },
   ],
   gold: [
-    { no: 1, island: 2, cost: 3, rewards: [{ id: 'purpleChest', qty: 3 }, { id: 'thunderCoin', qty: 3 }] },
-    { no: 2, island: 3, cost: 2, rewards: [{ id: 'redCrownChest', qty: 4 }, { id: 'jesterChest', qty: 1 }] },
-    { no: 3, island: 4, cost: 5, rewards: [{ id: 'purpleChest', qty: 4 }, { id: 'energy', amount: 10_000 }] },
-    { no: 4, island: 5, cost: 7, rewards: [{ id: 'bunnyCoin', amount: 400, qty: 2 }, { id: 'mystery', qty: 3 }] },
-    { no: 5, island: 5, cost: 10, rewards: [{ id: 'lightningChest', qty: 5 }] },
+    { no: 1, island: 2, scene: 'arch', cost: 3, rewards: [{ id: 'purpleChest', qty: 3 }, { id: 'thunderCoin', qty: 3 }] },
+    { no: 2, island: 3, scene: 'waterfall', cost: 2, rewards: [{ id: 'redCrownChest', qty: 4 }, { id: 'jesterChest', qty: 1 }] },
+    { no: 3, island: 4, scene: 'waterfall', cost: 5, rewards: [{ id: 'purpleChest', qty: 4 }, { id: 'energy', amount: 10_000 }] },
+    { no: 4, island: 5, scene: 'lava', cost: 7, rewards: [{ id: 'bunnyCoin', amount: 400, qty: 2 }, { id: 'mystery', qty: 3 }] },
+    { no: 5, island: 5, scene: 'lava', cost: 10, rewards: [{ id: 'lightningChest', qty: 5 }] },
   ],
 };
 

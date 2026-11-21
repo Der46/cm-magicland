@@ -83,11 +83,14 @@
     "jokerCard": "ジョーカー",
     "bunnyCoin": "ウサギコイン",
     "gems": "ジェム",
-    "frame": "新フレーム",
-    "background": "新背景",
-    "mystery": "ミステリー報酬"
+    "mystery": "ミステリー報酬",
+    "diamondCard": "新ダイヤカード",
+    "seasonCard": "新シーズンカード"
   },
   "footer": {
-    "disclaimer": "プレイヤーコミュニティがまとめた非公式情報です。ゲーム運営とは関係ありません。数値はアップデートで変わる可能性があります。"
+    "disclaimer": "プレイヤーコミュニティがまとめた非公式情報です。ゲーム運営とは関係ありません。\n数値はアップデートで変わる可能性があります。",
+    "contactLead": "開発者への連絡：",
+    "contactLink": "LINEコミュニティに参加",
+    "contactAfter": "して @CSL をメンションしてください。"
   }
 }
