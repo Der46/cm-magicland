@@ -10,7 +10,7 @@ assets/css/style.css  全部樣式（@layer 分層）
 assets/js/app.js      主程式：繪製各區塊、事件委派
 assets/js/i18n.js     i18n：語言偵測、載入 JSON、t()、套用 data-i18n
 assets/js/data.js     所有遊戲資料（藥水、大門、怪物、語言清單）
-assets/js/icons.js    SVG sprite：道具圖示（#i-{id}）、怪物造型（#m-{name}）、大門場景（#g-{scene}：arch／waterfall／lava），原創繪製
+assets/js/icons.js    SVG sprite：道具圖示（#i-{id}）、怪物造型（#m-{name}）、大門場景（#g-{scene}：arch／waterfall／lava）、網站 Logo 城堡（#i-castle，與 favicon.svg 相同造型），原創繪製
 locales/*.json        9 種語言的翻譯字串
 favicon.svg
 .nojekyll             讓 GitHub Pages 跳過 Jekyll

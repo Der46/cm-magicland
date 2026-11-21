@@ -110,12 +110,24 @@ const items = `
   ${card('diamondCard', '#1e3a8a', '#93c5fd', `<path d="M11 13h10l3 4-8 9-8-9z" fill="#67e8f9" stroke="#e0f2fe" stroke-width=".8"/><path d="M8 17h16M13 13l3 13 3-13" stroke="#0e7490" stroke-width=".7" fill="none"/>`)}
   ${card('seasonCard', '#0369a1', '#7dd3fc', `<ellipse cx="16" cy="23" rx="6" ry="2" fill="#fde68a"/><path d="M16 22q-1-6 1-9" stroke="#92400e" stroke-width="1.4" fill="none"/><path d="M17 13q-4-3-7 1 4-1 7-1zM17 13q4-3 7 0-4-1-7 0zM17 13q-2-4-5-4 3 2 5 4zM17 13q3-4 6-3-3 1-6 3z" fill="#22c55e"/>`)}
 
-  <symbol id="i-background" viewBox="0 0 32 32">
-    <rect x="3" y="3" width="26" height="26" rx="5" fill="#38bdf8"/>
-    <path d="M3 22q13-5 26 0v2a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5z" fill="#0284c7"/>
-    <ellipse cx="16" cy="22" rx="9" ry="3" fill="#fde68a"/>
-    <path d="M16 21q-1-7 1-11" stroke="#92400e" stroke-width="1.8" fill="none"/>
-    <path d="M17 10q-5-3-9 1 5-1 9-1zM17 10q5-4 9 0-5-1-9 0zM17 10q-2-5-6-5 4 2 6 5zM17 10q3-5 7-4-4 1-7 4z" fill="#16a34a"/>
+  <!-- 網站 Logo：魔法城堡 -->
+  <symbol id="i-castle" viewBox="0 0 32 32">
+    <rect x="1" y="1" width="30" height="30" rx="7" fill="#0f3d3a"/>
+    <circle cx="24" cy="8" r="2.2" fill="#fde68a"/>
+    <path d="M1 25q15-4 30 0v-0 1a5 5 0 0 1-5 5H6a5 5 0 0 1-5-5z" fill="#166534"/>
+    <rect x="9" y="14" width="14" height="12" fill="#cbd5e1" stroke="#334155" stroke-width=".8"/>
+    <path d="M9 14v-2h2v2h2.5v-2h2v2h2.5v-2h2v2h1" fill="none" stroke="#334155" stroke-width=".8"/>
+    <rect x="9" y="12" width="2" height="2" fill="#cbd5e1"/><rect x="13.5" y="12" width="2" height="2" fill="#cbd5e1"/><rect x="18" y="12" width="2" height="2" fill="#cbd5e1"/>
+    <rect x="4.5" y="11" width="5" height="15" fill="#e2e8f0" stroke="#334155" stroke-width=".8"/>
+    <rect x="22.5" y="11" width="5" height="15" fill="#e2e8f0" stroke="#334155" stroke-width=".8"/>
+    <path d="M3.8 11.2L7 5l3.2 6.2zM21.8 11.2L25 5l3.2 6.2z" fill="#7c3aed" stroke="#3b0764" stroke-width=".8" stroke-linejoin="round"/>
+    <rect x="13" y="7" width="6" height="7" fill="#e2e8f0" stroke="#334155" stroke-width=".8"/>
+    <path d="M12.2 7.2L16 1.8l3.8 5.4z" fill="#7c3aed" stroke="#3b0764" stroke-width=".8" stroke-linejoin="round"/>
+    <path d="M16 2V.6l2.6.8L16 2.2z" fill="#f5b81c"/>
+    <path d="M7 5V3.4l2 .7L7 4.8zM25 5V3.4l2 .7-2 .7z" fill="#f5b81c"/>
+    <path d="M13.5 26v-4a2.5 2.5 0 0 1 5 0v4z" fill="#78350f" stroke="#334155" stroke-width=".8"/>
+    <rect x="15.2" y="9" width="1.6" height="2.4" rx=".8" fill="#f5b81c"/>
+    <rect x="6.2" y="15" width="1.6" height="2.4" rx=".8" fill="#f5b81c"/><rect x="24.2" y="15" width="1.6" height="2.4" rx=".8" fill="#f5b81c"/>
   </symbol>
 
   <symbol id="i-mystery" viewBox="0 0 32 32">
