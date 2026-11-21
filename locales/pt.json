@@ -6,8 +6,7 @@
   "site": {
     "short": "Terra Mágica",
     "eyebrow": "Coin Master · Magical Land",
-    "title": "Guia da Terra Mágica",
-    "lead": "Portões e chaves, HP e recompensas dos monstros, e poções da bandeira vermelha — tudo numa página."
+    "title": "Guia da Terra Mágica"
   },
   "nav": {
     "label": "Menu principal",
@@ -59,7 +58,6 @@
   "potions": {
     "zone4Title": "Zona 4 · Poções só pela bandeira vermelha",
     "zone5Title": "Zona 5 · Poções só pela bandeira vermelha",
-    "intro": "Versão padrão. Troque pela aposta; cada casa é a quantidade de poções daquele passo, avançando 🚩0/3 → 🚩1/3 → 🚩2/3.",
     "bet": "Aposta",
     "subtotal": "Subtotal",
     "total": "Total {bet}",

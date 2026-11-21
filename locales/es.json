@@ -6,8 +6,7 @@
   "site": {
     "short": "Tierra Mágica",
     "eyebrow": "Coin Master · Magical Land",
-    "title": "Guía de la Tierra Mágica",
-    "lead": "Puertas y llaves, PV y recompensas de monstruos, y pociones de bandera roja — todo en una página."
+    "title": "Guía de la Tierra Mágica"
   },
   "nav": {
     "label": "Menú principal",
@@ -59,7 +58,6 @@
   "potions": {
     "zone4Title": "Zona 4 · Pociones solo por bandera roja",
     "zone5Title": "Zona 5 · Pociones solo por bandera roja",
-    "intro": "Versión estándar. Cambia según la apuesta; cada casilla es la cantidad de pociones de ese paso, avanzando 🚩0/3 → 🚩1/3 → 🚩2/3.",
     "bet": "Apuesta",
     "subtotal": "Subtotal",
     "total": "Total {bet}",

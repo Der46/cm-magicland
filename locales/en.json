@@ -6,8 +6,7 @@
   "site": {
     "short": "Magical Land",
     "eyebrow": "Coin Master · Magical Land",
-    "title": "Magical Land Guide",
-    "lead": "Gates & keys, monster HP and rewards, and red-flag potion requirements — all on one page."
+    "title": "Magical Land Guide"
   },
   "nav": {
     "label": "Main menu",
@@ -59,7 +58,6 @@
   "potions": {
     "zone4Title": "Zone 4 · Red-Flag-Only Potion Needs",
     "zone5Title": "Zone 5 · Red-Flag-Only Potion Needs",
-    "intro": "Standard version. Switch by bet; each cell is the potions needed for that step, moving 🚩0/3 → 🚩1/3 → 🚩2/3 in order.",
     "bet": "Bet",
     "subtotal": "Subtotal",
     "total": "{bet} total",

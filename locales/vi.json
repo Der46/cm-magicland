@@ -6,8 +6,7 @@
   "site": {
     "short": "Vương quốc Phép thuật",
     "eyebrow": "Coin Master · Magical Land",
-    "title": "Cẩm nang Vương quốc Phép thuật",
-    "lead": "Cổng & chìa khóa, máu và phần thưởng quái vật, lượng thuốc cờ đỏ — tất cả trong một trang."
+    "title": "Cẩm nang Vương quốc Phép thuật"
   },
   "nav": {
     "label": "Menu chính",
@@ -59,7 +58,6 @@
   "potions": {
     "zone4Title": "Khu 4 · Thuốc khi chỉ đi cờ đỏ",
     "zone5Title": "Khu 5 · Thuốc khi chỉ đi cờ đỏ",
-    "intro": "Bản thường. Chọn theo mức cược; mỗi ô là lượng thuốc cho bước đó, đi lần lượt 🚩0/3 → 🚩1/3 → 🚩2/3.",
     "bet": "Mức cược",
     "subtotal": "Tạm tính",
     "total": "Tổng {bet}",

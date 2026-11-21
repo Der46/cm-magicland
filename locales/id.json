@@ -6,8 +6,7 @@
   "site": {
     "short": "Magical Land",
     "eyebrow": "Coin Master · Magical Land",
-    "title": "Panduan Magical Land",
-    "lead": "Gerbang & kunci, HP dan hadiah monster, kebutuhan ramuan bendera merah — semua di satu halaman."
+    "title": "Panduan Magical Land"
   },
   "nav": {
     "label": "Menu utama",
@@ -59,7 +58,6 @@
   "potions": {
     "zone4Title": "Zona 4 · Kebutuhan Ramuan Jalur Bendera Merah",
     "zone5Title": "Zona 5 · Kebutuhan Ramuan Jalur Bendera Merah",
-    "intro": "Versi standar. Pilih berdasarkan taruhan; tiap sel adalah ramuan untuk langkah itu, maju berurutan 🚩0/3 → 🚩1/3 → 🚩2/3.",
     "bet": "Taruhan",
     "subtotal": "Subtotal",
     "total": "Total {bet}",

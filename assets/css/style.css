@@ -238,7 +238,6 @@
     -webkit-text-stroke: 1px color-mix(in oklab, var(--gold-deep) 60%, #000);
     filter: drop-shadow(0 3px 0 rgb(0 0 0 / 0.25));
   }
-  .hero__lead { font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem); color: var(--muted); max-inline-size: 48ch; }
 
   /* 浮水印：斜放的圓形印章「大佬群 CSL 製作」（雙圈框線、半透明） */
   .watermark {
