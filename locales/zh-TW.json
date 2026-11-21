@@ -22,7 +22,6 @@
     "zone": "第{n}區",
     "all": "全部",
     "new": "NEW",
-    "theme": "切換深色／淺色",
     "language": "語言"
   },
   "gates": {
@@ -38,7 +37,6 @@
   "monsters": {
     "title": "怪物圖鑑",
     "intro": "14 怪物版（兔子幣版本），不含第一區共 13 隻。每隻怪物有三段血量，打完每段都有獎勵。",
-    "version": "資料日期：{date}",
     "filter": "依區域篩選",
     "summary": "目前顯示 {count} 隻，建議藥水總量：",
     "hp": "血量",
@@ -65,10 +63,6 @@
     "bet": "下注倍數",
     "subtotal": "小計",
     "total": "{bet} 總計",
-    "compare": "各下注倍數總藥水比較",
-    "budget": "我的藥水",
-    "budgetPlaceholder": "例如 500000",
-    "budgetResult": "可以走到第 {reached} / {total} 格",
     "cyclopsNote": "紅色格子是獨眼怪（10 倍直走測試）。"
   },
   "items": {

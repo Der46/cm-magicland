@@ -22,7 +22,6 @@
     "zone": "ゾーン{n}",
     "all": "すべて",
     "new": "NEW",
-    "theme": "ダーク／ライト切替",
     "language": "言語"
   },
   "gates": {
@@ -38,7 +37,6 @@
   "monsters": {
     "title": "モンスター図鑑",
     "intro": "14モンスター版（ウサギコイン版）— ゾーン1を除く計13体。各モンスターはHPが3段階あり、段階ごとに報酬があります。",
-    "version": "データ日付：{date}",
     "filter": "ゾーンで絞り込み",
     "summary": "{count} 体を表示中・推奨ポーション合計：",
     "hp": "HP",
@@ -65,10 +63,6 @@
     "bet": "ベット",
     "subtotal": "小計",
     "total": "{bet} 合計",
-    "compare": "ベット別 合計ポーション比較",
-    "budget": "所持ポーション",
-    "budgetPlaceholder": "例：500000",
-    "budgetResult": "{total} マス中 {reached} マスまで進めます",
     "cyclopsNote": "赤いマスはサイクロプス（10倍直進テスト）。"
   },
   "items": {

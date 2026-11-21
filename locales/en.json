@@ -22,7 +22,6 @@
     "zone": "Zone {n}",
     "all": "All",
     "new": "NEW",
-    "theme": "Toggle dark / light",
     "language": "Language"
   },
   "gates": {
@@ -38,7 +37,6 @@
   "monsters": {
     "title": "Monsters",
     "intro": "14-monster edition (Bunny Coin version) — 13 monsters, Zone 1 excluded. Each monster has three HP stages, each with its own reward.",
-    "version": "Data date: {date}",
     "filter": "Filter by zone",
     "summary": "Showing {count} monsters · Suggested potions in total:",
     "hp": "HP",
@@ -65,10 +63,6 @@
     "bet": "Bet",
     "subtotal": "Subtotal",
     "total": "{bet} total",
-    "compare": "Total potions by bet",
-    "budget": "My potions",
-    "budgetPlaceholder": "e.g. 500000",
-    "budgetResult": "You can reach step {reached} of {total}",
     "cyclopsNote": "Red cells are the Cyclops (tested at 10× straight run)."
   },
   "items": {

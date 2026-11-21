@@ -22,7 +22,6 @@
     "zone": "Khu {n}",
     "all": "Tất cả",
     "new": "MỚI",
-    "theme": "Chuyển sáng / tối",
     "language": "Ngôn ngữ"
   },
   "gates": {
@@ -38,7 +37,6 @@
   "monsters": {
     "title": "Quái vật",
     "intro": "Bản 14 quái vật (phiên bản Xu Thỏ) — 13 con, không tính Khu 1. Mỗi quái có 3 nấc máu, mỗi nấc đều có thưởng.",
-    "version": "Ngày dữ liệu: {date}",
     "filter": "Lọc theo khu",
     "summary": "Đang hiển thị {count} con · Tổng thuốc đề xuất:",
     "hp": "Máu",
@@ -65,10 +63,6 @@
     "bet": "Mức cược",
     "subtotal": "Tạm tính",
     "total": "Tổng {bet}",
-    "compare": "So sánh tổng thuốc theo mức cược",
-    "budget": "Thuốc của tôi",
-    "budgetPlaceholder": "vd. 500000",
-    "budgetResult": "Bạn đi được tới ô {reached}/{total}",
     "cyclopsNote": "Ô màu đỏ là Quái Một mắt (thử nghiệm đi thẳng 10×)."
   },
   "items": {

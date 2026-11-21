@@ -1,6 +1,6 @@
 /* =========================================================
-   魔法王國資訊站 — 樣式
-   現代 CSS：@layer、原生巢狀、light-dark()、color-mix()、
+   魔法王國資訊站 — 樣式（僅深色主題）
+   現代 CSS：@layer、原生巢狀、color-mix()、
    container queries、:has()、scroll-driven animation、
    popover + @starting-style、View Transitions、邏輯屬性
    ========================================================= */
@@ -23,27 +23,28 @@
 /* ---------- design tokens ---------- */
 @layer tokens {
   :root {
-    color-scheme: light dark;
+    /* 只提供深色主題 */
+    color-scheme: dark;
 
-    --bg: light-dark(#f4fbf8, #071c1d);
-    --bg-alt: light-dark(#e7f5ef, #0b2627);
-    --surface: light-dark(#ffffff, #102f30);
-    --surface-2: light-dark(#f7faf5, #143738);
-    --text: light-dark(#0f2a2a, #e6f4ef);
-    --muted: light-dark(#4b6461, #9cbdb6);
-    --border: light-dark(#d6e7e1, #22494a);
+    --bg: #071c1d;
+    --bg-alt: #0b2627;
+    --surface: #102f30;
+    --surface-2: #143738;
+    --text: #e6f4ef;
+    --muted: #9cbdb6;
+    --border: #22494a;
 
-    --brand: light-dark(#0f766e, #2dd4bf);
-    --brand-ink: light-dark(#ffffff, #042f2e);
+    --brand: #2dd4bf;
+    --brand-ink: #042f2e;
     --gold: #f5b81c;
     --gold-deep: #b7791f;
     --bronze: #c2703d;
     --ruby: #d6336c;
     --lava: #ea580c;
 
-    --flag-0: light-dark(#38bdf8, #0ea5e9);
-    --flag-1: light-dark(#a78bfa, #8b5cf6);
-    --flag-2: light-dark(#fb7185, #f43f5e);
+    --flag-0: #0ea5e9;
+    --flag-1: #8b5cf6;
+    --flag-2: #f43f5e;
 
     --radius: 1rem;
     --radius-sm: 0.6rem;
@@ -57,10 +58,6 @@
     --space: clamp(1rem, 0.6rem + 1.6vw, 2rem);
     --header-h: 3.75rem;
   }
-
-  /* 手動主題切換 */
-  :root[data-theme='light'] { color-scheme: light; }
-  :root[data-theme='dark'] { color-scheme: dark; }
 }
 
 /* ---------- base ---------- */
@@ -158,7 +155,7 @@
   /* Footer */
   .site-footer {
     padding-block: calc(var(--space) * 1.5);
-    background: light-dark(#0f2a2a, #041314); color: #d9efe9;
+    background: #041314; color: #d9efe9;
     text-align: center;
     & .container { display: grid; gap: 0.5rem; }
   }
@@ -181,18 +178,19 @@
     box-shadow: var(--shadow);
   }
 
-  .icon-btn, .lang-btn {
+  /* SVG 圖示（sprite + <use>） */
+  .ico {
+    inline-size: 1.4em; block-size: 1.4em; flex: none;
+    display: inline-block; vertical-align: -0.35em;
+  }
+  .ico--sm { inline-size: 1.1em; block-size: 1.1em; vertical-align: -0.2em; }
+
+  .lang-btn {
     display: inline-flex; align-items: center; gap: 0.35rem;
     block-size: 2.4rem; padding-inline: 0.7rem;
     border: 1px solid var(--border); border-radius: 999px;
     background: var(--surface); cursor: pointer; font-weight: 600; font-size: 0.9rem; white-space: nowrap;
     &:hover { border-color: var(--brand); }
-  }
-  .icon-btn { inline-size: 2.4rem; justify-content: center; padding: 0; }
-  .theme-icon::before { content: '🌙'; }
-  :root[data-theme='dark'] .theme-icon::before { content: '☀️'; }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme='light']) .theme-icon::before { content: '☀️'; }
   }
 
   /* 語言 popover（Popover API + @starting-style 進場動畫） */
@@ -223,7 +221,7 @@
     background:
       radial-gradient(60rem 30rem at 85% -10%, color-mix(in oklab, var(--gold) 35%, transparent), transparent 60%),
       radial-gradient(50rem 30rem at -10% 110%, color-mix(in oklab, var(--brand) 40%, transparent), transparent 60%),
-      linear-gradient(160deg, light-dark(#d9f3ea, #0a3433), light-dark(#b8e6f2, #062030));
+      linear-gradient(160deg, #0a3433, #062030);
   }
   .hero__inner { display: grid; gap: 1rem; justify-items: start; }
   .hero__eyebrow {
@@ -242,18 +240,26 @@
   }
   .hero__lead { font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem); color: var(--muted); max-inline-size: 48ch; }
 
-  /* 浮水印：斜放的緞帶「大佬群CSL製作」 */
+  /* 浮水印：斜放的圓形印章「大佬群 CSL 製作」（雙圈框線、半透明） */
   .watermark {
-    --ribbon: #c81e3a;
-    position: relative; display: inline-flex; align-items: center; gap: 0.35rem;
-    padding: 0.35rem 1.3rem;
-    font-weight: 800; font-size: clamp(0.85rem, 0.75rem + 0.4vw, 1.05rem); letter-spacing: 0.05em; color: #fff;
-    background: linear-gradient(180deg, color-mix(in oklab, var(--ribbon) 80%, #fff), var(--ribbon));
-    clip-path: polygon(0 0, 100% 0, calc(100% - 0.7rem) 50%, 100% 100%, 0 100%, 0.7rem 50%);
-    rotate: -12deg;
-    opacity: 0.85;
-    text-shadow: 0 1px 0 rgb(0 0 0 / 0.35);
+    --ink: #5eead4;
+    display: inline-grid; place-items: center; align-content: center;
+    inline-size: clamp(5.5rem, 4.5rem + 3vw, 7rem); aspect-ratio: 1;
+    border-radius: 50%;
+    border: 3px double var(--ink);
+    outline: 1px dashed color-mix(in oklab, var(--ink) 60%, transparent); outline-offset: 4px;
+    background: radial-gradient(circle, color-mix(in oklab, var(--ink) 14%, transparent), transparent 70%);
+    color: var(--ink); line-height: 1.05; text-align: center;
+    rotate: 18deg;
+    opacity: 0.7;
+    mix-blend-mode: screen;
     user-select: none; pointer-events: none; white-space: nowrap;
+  }
+  .watermark__top, .watermark__bottom { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.3em; padding-inline-start: 0.3em; }
+  .watermark__main {
+    font-family: var(--font-display), var(--font-body); font-weight: 800;
+    font-size: clamp(1.4rem, 1.1rem + 1vw, 1.9rem); letter-spacing: 0.06em;
+    border-block: 1px solid currentColor; padding-inline: 0.3rem; margin-block: 0.15rem;
   }
 
   .hero__cards {
@@ -266,7 +272,7 @@
     background: color-mix(in oklab, var(--surface) 80%, transparent); border: 1px solid var(--border);
     backdrop-filter: blur(6px);
     transition: translate 0.2s var(--ease), box-shadow 0.2s var(--ease);
-    & > span:first-child { font-size: 1.5rem; }
+    & > .ico { font-size: 1.6rem; }
     &:hover { translate: 0 -3px; box-shadow: var(--shadow); }
   }
 
@@ -345,10 +351,18 @@
     background: linear-gradient(90deg, color-mix(in oklab, var(--z) 22%, var(--surface)), var(--surface));
     border-block-end: 1px solid var(--border);
   }
+  .monster__avatar {
+    position: relative; inline-size: 4rem; aspect-ratio: 1;
+    border-radius: 1rem; display: grid; place-items: center;
+    background: radial-gradient(circle at 50% 40%, color-mix(in oklab, var(--z) 45%, var(--surface)), var(--surface-2));
+    border: 2px solid var(--z);
+  }
+  .monster__art { inline-size: 3.4rem; block-size: 3.4rem; filter: drop-shadow(0 2px 2px rgb(0 0 0 / 0.4)); }
   .monster__no {
-    display: grid; place-items: center; inline-size: 2.6rem; aspect-ratio: 1;
-    border-radius: 0.7rem; background: var(--z); color: #fff;
-    font-family: var(--font-display), var(--font-body); font-weight: 800; font-size: 1.3rem;
+    position: absolute; inset-block-end: -0.45rem; inset-inline-start: -0.45rem;
+    display: grid; place-items: center; inline-size: 1.6rem; aspect-ratio: 1;
+    border-radius: 50%; background: var(--z); color: #fff; border: 2px solid var(--surface);
+    font-family: var(--font-display), var(--font-body); font-weight: 800; font-size: 0.85rem;
   }
   .monster__name { font-size: 1.15rem; }
   .monster__zone { font-size: 0.8rem; color: var(--muted); }
@@ -401,17 +415,6 @@
 
   .potion-panel { padding: clamp(1rem, 0.5rem + 2vw, 1.5rem); display: grid; gap: 1.25rem; container-type: inline-size; }
 
-  .budget {
-    display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem;
-    & label { font-weight: 700; }
-    & input {
-      inline-size: min(100%, 14rem); padding: 0.5rem 0.8rem; border-radius: var(--radius-sm);
-      border: 1px solid var(--border); background: var(--surface-2); font-variant-numeric: tabular-nums;
-      &:focus-visible { border-color: var(--brand); }
-    }
-    & output { font-weight: 700; color: var(--brand); }
-  }
-
   .flag-grid { display: grid; gap: 1rem; grid-template-columns: 1fr; }
   @container (width >= 40rem) { .flag-grid { grid-template-columns: repeat(3, 1fr); } }
 
@@ -443,39 +446,12 @@
   .cell__i { font-size: 0.65rem; color: var(--muted); }
   .cell__v { font-weight: 700; }
   .cell--cyclops { background: color-mix(in oklab, var(--ruby) 18%, var(--surface)); border-color: var(--ruby); }
-  .cell--ok { background: color-mix(in oklab, #22c55e 22%, var(--surface)); border-color: #22c55e; }
-  .cell--no { opacity: 0.5; }
 
   .potion-total {
     display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem;
     font-weight: 700;
     & strong { font-family: var(--font-display), var(--font-body); font-size: 2rem; color: var(--brand); }
     & small { color: var(--muted); }
-  }
-
-  /* 長條圖（純 CSS） */
-  .bars {
-    margin-block-start: 1.25rem; padding: 1rem; display: grid; gap: 0.5rem;
-    border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border);
-    & figcaption { font-weight: 700; margin-block-end: 0.25rem; }
-  }
-  .bar {
-    display: grid; grid-template-columns: 4.5rem 1fr 4rem; align-items: center; gap: 0.6rem;
-    font-size: 0.85rem; font-weight: 600;
-    &.bar--active :is(.bar__label, .bar__value) { color: var(--brand); font-weight: 800; }
-  }
-  .bar__track {
-    display: flex; inline-size: var(--w); block-size: 0.9rem; border-radius: 999px; overflow: clip;
-    transition: inline-size 0.4s var(--ease);
-  }
-  .bar__seg--0 { background: var(--flag-0); }
-  .bar__seg--1 { background: var(--flag-1); }
-  .bar__seg--2 { background: var(--flag-2); }
-  .bar__value { text-align: end; font-variant-numeric: tabular-nums; }
-  .legend {
-    display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.8rem; color: var(--muted); margin-block-start: 0.25rem;
-    & span { display: inline-flex; align-items: center; gap: 0.35rem; }
-    & i { display: inline-block; inline-size: 0.8rem; aspect-ratio: 1; border-radius: 3px; }
   }
 
   .note {

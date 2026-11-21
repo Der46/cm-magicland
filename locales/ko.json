@@ -22,7 +22,6 @@
     "zone": "{n}구역",
     "all": "전체",
     "new": "NEW",
-    "theme": "다크 / 라이트 전환",
     "language": "언어"
   },
   "gates": {
@@ -38,7 +37,6 @@
   "monsters": {
     "title": "몬스터 도감",
     "intro": "14 몬스터판(토끼 코인 버전) — 1구역 제외 총 13마리. 몬스터마다 HP 3단계가 있고 단계마다 보상이 있습니다.",
-    "version": "데이터 날짜: {date}",
     "filter": "구역별 필터",
     "summary": "{count}마리 표시 중 · 권장 물약 합계:",
     "hp": "HP",
@@ -65,10 +63,6 @@
     "bet": "베팅",
     "subtotal": "소계",
     "total": "{bet} 합계",
-    "compare": "베팅별 총 물약 비교",
-    "budget": "보유 물약",
-    "budgetPlaceholder": "예: 500000",
-    "budgetResult": "{total}칸 중 {reached}칸까지 갈 수 있어요",
     "cyclopsNote": "빨간 칸은 외눈박이입니다(10배 직진 테스트)."
   },
   "items": {

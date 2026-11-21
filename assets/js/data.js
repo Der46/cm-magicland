@@ -1,31 +1,5 @@
 // 魔法王國資料 — 所有數字皆來自社群整理的原始圖表 / PDF（見 CLAUDE.md「資料來源」）。
-// 文字一律以 i18n key 表示，實際顯示文字在 /locales/*.json。
-
-/** 道具圖示（emoji，與語言無關） */
-export const ICONS = {
-  energy: '🔋',
-  bomb: '💣',
-  cannon: '🎯',
-  rustyKey: '🗝️',
-  goldKey: '🔑',
-  chest: '🎁',
-  purpleChest: '🎁',
-  lightningChest: '⚡',
-  jesterChest: '🤡',
-  blueCrownChest: '👑',
-  redCrownChest: '👑',
-  royalChest: '🏰',
-  seasonChest: '🏆',
-  thunderCoin: '🌩️',
-  goldCard: '🟨',
-  blueCard: '🟦',
-  jokerCard: '🃏',
-  bunnyCoin: '🐰',
-  gems: '💎',
-  frame: '🖼️',
-  background: '🏝️',
-  mystery: '❓',
-};
+// 文字一律以 i18n key 表示，實際顯示文字在 /locales/*.json；圖示在 icons.js（SVG sprite）。
 
 /**
  * 道具：{ id, qty?, amount?, note?, isNew? }
@@ -52,8 +26,6 @@ export const GATES = {
 };
 
 /** 怪物（14 怪物版・兔子幣版本；不含第一區共 13 隻） */
-export const MONSTERS_VERSION = '2026.08.04';
-
 export const MONSTERS = [
   {
     zone: 2, no: 2, name: 'chief', total: 61_000,

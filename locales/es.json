@@ -22,7 +22,6 @@
     "zone": "Zona {n}",
     "all": "Todas",
     "new": "NUEVO",
-    "theme": "Cambiar oscuro / claro",
     "language": "Idioma"
   },
   "gates": {
@@ -38,7 +37,6 @@
   "monsters": {
     "title": "Monstruos",
     "intro": "Edición de 14 monstruos (versión Monedas Conejo): 13 monstruos, sin la Zona 1. Cada monstruo tiene 3 fases de PV, cada una con recompensa.",
-    "version": "Fecha de los datos: {date}",
     "filter": "Filtrar por zona",
     "summary": "Mostrando {count} monstruos · Pociones sugeridas en total:",
     "hp": "PV",
@@ -65,10 +63,6 @@
     "bet": "Apuesta",
     "subtotal": "Subtotal",
     "total": "Total {bet}",
-    "compare": "Pociones totales por apuesta",
-    "budget": "Mis pociones",
-    "budgetPlaceholder": "p. ej. 500000",
-    "budgetResult": "Llegas hasta la casilla {reached} de {total}",
     "cyclopsNote": "Las casillas rojas son el Cíclope (prueba en línea recta a 10×)."
   },
   "items": {

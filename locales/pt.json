@@ -22,7 +22,6 @@
     "zone": "Zona {n}",
     "all": "Todas",
     "new": "NOVO",
-    "theme": "Alternar escuro / claro",
     "language": "Idioma"
   },
   "gates": {
@@ -38,7 +37,6 @@
   "monsters": {
     "title": "Monstros",
     "intro": "Edição de 14 monstros (versão Moedas Coelho): 13 monstros, sem a Zona 1. Cada monstro tem 3 fases de HP, cada uma com recompensa.",
-    "version": "Data dos dados: {date}",
     "filter": "Filtrar por zona",
     "summary": "Mostrando {count} monstros · Poções sugeridas no total:",
     "hp": "HP",
@@ -65,10 +63,6 @@
     "bet": "Aposta",
     "subtotal": "Subtotal",
     "total": "Total {bet}",
-    "compare": "Poções totais por aposta",
-    "budget": "Minhas poções",
-    "budgetPlaceholder": "ex.: 500000",
-    "budgetResult": "Você chega até a casa {reached} de {total}",
     "cyclopsNote": "As casas vermelhas são o Ciclope (teste em linha reta a 10×)."
   },
   "items": {

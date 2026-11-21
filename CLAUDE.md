@@ -7,9 +7,10 @@ Coin Master「魔法王國（Magical Land）」活動的玩家攻略資訊網站
 ```
 index.html            單頁入口（HTML 骨架 + data-i18n 標記）
 assets/css/style.css  全部樣式（@layer 分層）
-assets/js/app.js      主程式：繪製各區塊、事件委派、主題切換
+assets/js/app.js      主程式：繪製各區塊、事件委派
 assets/js/i18n.js     i18n：語言偵測、載入 JSON、t()、套用 data-i18n
-assets/js/data.js     所有遊戲資料（大門、怪物、藥水、語言清單、道具圖示）
+assets/js/data.js     所有遊戲資料（藥水、大門、怪物、語言清單）
+assets/js/icons.js    SVG sprite：道具圖示（#i-{id}）與怪物造型（#m-{name}），原創繪製
 locales/*.json        9 種語言的翻譯字串
 favicon.svg
 .nojekyll             讓 GitHub Pages 跳過 Jekyll
@@ -29,8 +30,15 @@ python -m http.server 8000
 1. **RWD**：手機（≥320px）到桌機都要正常；導覽列在 `width < 60rem` 時變第二列可水平捲動。
 2. **9 種語言**：`zh-TW`（預設 / fallback）、`en`、`vi`、`ja`、`ko`、`th`、`id`、`es`、`pt`。語言清單在 `data.js` 的 `LANGUAGES`，選單顯示母語名稱。
 3. **頁尾署名**：`© {year} 大佬群CSL製作`，`{year}` 由 `app.js` 以 `new Date().getFullYear()` 帶入（`#year`）。此文字**不翻譯**。
-4. **浮水印**：標題 `h1` 旁的 `.watermark` 斜放緞帶（`rotate: -12deg`），文字固定為「大佬群CSL製作」，**不翻譯、不可刪除**。
-5. **現代寫法**：原生 ES Modules（top-level await）、CSS `@layer`、原生巢狀、`light-dark()`、`color-mix()`、container queries、`:has()`、scroll-driven animation、Popover API + `@starting-style`、View Transitions API、邏輯屬性、media query range syntax。不要引入框架或打包工具。
+4. **浮水印**：標題 `h1` 旁的 `.watermark` 斜放圓形印章（`rotate: 18deg`，雙圈框線、半透明），文字固定為「大佬群 / CSL / 製作」，**不翻譯、不可刪除**。不要改回緞帶造型。
+5. **現代寫法**：原生 ES Modules（top-level await）、CSS `@layer`、原生巢狀、`color-mix()`、container queries、`:has()`、scroll-driven animation、Popover API + `@starting-style`、View Transitions API、SVG sprite（`<use>` + CSS 自訂屬性換色）、邏輯屬性、media query range syntax。不要引入框架或打包工具。
+6. **區塊順序**：第四區藥水 → 第五區藥水 → 大門與鑰匙 → 怪物圖鑑（導覽列、首頁卡片、`renderAll()` 都依此順序）。
+7. **只有深色主題**：沒有亮色模式、沒有主題切換按鈕。
+8. **圖示一律用 SVG**（`icons.js`），不要用 emoji 或遊戲官方圖片。
+
+## 已移除、不要加回的功能
+
+- 資料日期顯示、「我的藥水」試算、各下注倍數總藥水比較長條圖、亮色模式。
 
 ## i18n 規則
 
@@ -42,7 +50,7 @@ python -m http.server 8000
 
 ## 資料規則（data.js）
 
-- 道具一律用 id（`energy`、`bomb`、`goldKey`…），顯示名稱在 `locales/*.json` 的 `items`，圖示在 `ICONS`。新增道具三處都要補。
+- 道具一律用 id（`energy`、`bomb`、`goldKey`…），顯示名稱在 `locales/*.json` 的 `items`，圖示是 `icons.js` 的 `<symbol id="i-{id}">`。新增道具三處都要補；新增怪物種類要在 `icons.js` 加 `m-{name}`。
 - 道具物件：`{ id, qty?, amount?, note?, isNew? }`；`qty` 顯示「×n」，`amount` 是數值（能量 10K、兔子幣 600）。
 - `MONSTERS` 的順序依照原始圖表（2,3,4,5,6,7,8,10,11,9,12,13,14），不要自行排序。
 - `POTIONS.zoneX[].flags` 為三個陣列，分別是 🚩0/3、🚩1/3、🚩2/3 每一格的藥水量。**更新數字後要驗證每欄加總等於來源表的小計**。
@@ -51,10 +59,10 @@ python -m http.server 8000
 ## 資料來源
 
 - 大門與鑰匙：社群整理圖「Gates and Keys」。
-- 怪物：「14 怪物版・兔子幣版本」表，資料日期 2026.08.04（`MONSTERS_VERSION`）。
+- 怪物：「14 怪物版・兔子幣版本」表（網站上不顯示資料日期）。
 - 藥水需求：`第四區.pdf`、`第五區.pdf`（魔法王國只走紅旗藥水需求・一般版）。
 
-本站不使用遊戲官方圖片素材，道具以 emoji 表示。
+本站不使用遊戲官方圖片素材，怪物與道具皆為原創 SVG。
 
 ## 部署
 

@@ -22,7 +22,6 @@
     "zone": "Zona {n}",
     "all": "Semua",
     "new": "BARU",
-    "theme": "Ganti gelap / terang",
     "language": "Bahasa"
   },
   "gates": {
@@ -38,7 +37,6 @@
   "monsters": {
     "title": "Monster",
     "intro": "Edisi 14 monster (versi Koin Kelinci) — 13 monster, tanpa Zona 1. Tiap monster punya 3 tahap HP, masing-masing berhadiah.",
-    "version": "Tanggal data: {date}",
     "filter": "Filter per zona",
     "summary": "Menampilkan {count} monster · Total ramuan disarankan:",
     "hp": "HP",
@@ -65,10 +63,6 @@
     "bet": "Taruhan",
     "subtotal": "Subtotal",
     "total": "Total {bet}",
-    "compare": "Perbandingan total ramuan per taruhan",
-    "budget": "Ramuan saya",
-    "budgetPlaceholder": "mis. 500000",
-    "budgetResult": "Kamu bisa sampai langkah {reached} dari {total}",
     "cyclopsNote": "Sel merah adalah Cyclops (uji jalan lurus 10×)."
   },
   "items": {
