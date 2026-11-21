@@ -236,7 +236,8 @@
     font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.8rem; color: var(--brand);
   }
   .hero__title-wrap {
-    position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem;
+    /* 浮水印固定貼在標題右側，不換行 */
+    position: relative; display: flex; flex-wrap: nowrap; align-items: center; gap: 0.5rem 0.9rem;
   }
   .hero__title {
     font-family: var(--font-display), var(--font-body); font-weight: 800;
@@ -251,10 +252,11 @@
   .watermark {
     --ink: #5eead4;
     display: inline-grid; place-items: center; align-content: center;
-    inline-size: clamp(5.5rem, 4.5rem + 3vw, 7rem); aspect-ratio: 1;
+    flex: none;
+    inline-size: clamp(3.4rem, 2.9rem + 1.6vw, 4.4rem); aspect-ratio: 1;
     border-radius: 50%;
     border: 3px double var(--ink);
-    outline: 1px dashed color-mix(in oklab, var(--ink) 60%, transparent); outline-offset: 4px;
+    outline: 1px dashed color-mix(in oklab, var(--ink) 60%, transparent); outline-offset: 3px;
     background: radial-gradient(circle, color-mix(in oklab, var(--ink) 14%, transparent), transparent 70%);
     color: var(--ink); line-height: 1.05; text-align: center;
     rotate: 18deg;
@@ -262,11 +264,11 @@
     mix-blend-mode: screen;
     user-select: none; pointer-events: none; white-space: nowrap;
   }
-  .watermark__top, .watermark__bottom { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.3em; padding-inline-start: 0.3em; }
+  .watermark__top, .watermark__bottom { font-size: clamp(0.5rem, 0.45rem + 0.15vw, 0.6rem); font-weight: 700; letter-spacing: 0.2em; padding-inline-start: 0.2em; }
   .watermark__main {
     font-family: var(--font-display), var(--font-body); font-weight: 800;
-    font-size: clamp(1.4rem, 1.1rem + 1vw, 1.9rem); letter-spacing: 0.06em;
-    border-block: 1px solid currentColor; padding-inline: 0.3rem; margin-block: 0.15rem;
+    font-size: clamp(0.95rem, 0.8rem + 0.5vw, 1.2rem); letter-spacing: 0.05em;
+    border-block: 1px solid currentColor; padding-inline: 0.2rem; margin-block: 0.05rem;
   }
 
   .hero__cards {

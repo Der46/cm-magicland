@@ -33,7 +33,8 @@ python -m http.server 8000
    - 免責聲明分兩行（locale 字串內用 `\n`，CSS `white-space: pre-line`）。
    - 聯絡網頁開發者：LINE 社群邀請連結（`index.html` 內 `.site-footer__contact`），文字請使用者加入後標記 @CSL（`footer.contactLead / contactLink / contactAfter`）。
    - 署名 `© {year} 大佬群CSL製作`，`{year}` 由 `app.js` 以 `new Date().getFullYear()` 帶入（`#year`）。此文字**不翻譯**。
-4. **浮水印**：標題 `h1` 旁的 `.watermark` 斜放圓形印章（`rotate: 18deg`，雙圈框線、半透明），文字固定為「大佬群 / CSL / 製作」，**不翻譯、不可刪除**。不要改回緞帶造型。
+4. **浮水印**：`#top` 區塊中 `h1` 右側的縮小版 `.watermark` 斜放圓形印章（`rotate: 18deg`，雙圈框線、半透明，約 3.4–4.4rem），`.hero__title-wrap` 不換行讓印章固定貼在標題旁。文字固定為「大佬群 / CSL / 製作」，**不翻譯、不可刪除**。不要改回緞帶造型。
+   - 網頁 `<title>`（`meta.title`）只放站名，**不要**加「大佬群CSL製作」。
 5. **現代寫法**：原生 ES Modules（top-level await）、CSS `@layer`、原生巢狀、`color-mix()`、container queries、`:has()`、scroll-driven animation、Popover API + `@starting-style`、View Transitions API、SVG sprite（`<use>` + CSS 自訂屬性換色）、邏輯屬性、media query range syntax。不要引入框架或打包工具。
 6. **區塊順序**：第四區藥水 → 第五區藥水 → 大門與鑰匙 → 怪物圖鑑（導覽列、首頁卡片、`renderAll()` 都依此順序）。
 7. **只有深色主題**：沒有亮色模式、沒有主題切換按鈕。
