@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Guia de Magical Land | 大佬群CSL",
+    "description": "Portões e chaves, HP e recompensas dos monstros, e poções necessárias na rota de bandeira vermelha das Zonas 4 e 5 de Magical Land."
+  },
+  "site": {
+    "short": "Terra Mágica",
+    "eyebrow": "Coin Master · Magical Land",
+    "title": "Guia da Terra Mágica",
+    "lead": "Portões e chaves, HP e recompensas dos monstros, e poções da bandeira vermelha — tudo numa página."
+  },
+  "nav": {
+    "label": "Menu principal",
+    "skip": "Ir para o conteúdo principal",
+    "gates": "Portões e chaves",
+    "monsters": "Monstros",
+    "zone4": "Poções Zona 4",
+    "zone5": "Poções Zona 5"
+  },
+  "common": {
+    "island": "Ilha {n}",
+    "zone": "Zona {n}",
+    "all": "Todas",
+    "new": "NOVO",
+    "theme": "Alternar escuro / claro",
+    "language": "Idioma"
+  },
+  "gates": {
+    "title": "Portões e chaves",
+    "intro": "Abra o portão de cada ilha com Chaves de bronze (enferrujadas) ou Chaves de ouro para ganhar estas recompensas.",
+    "bronze": "Chaves de bronze",
+    "gold": "Chaves de ouro",
+    "cost": "Custo",
+    "bronzeUnit": "chaves de bronze",
+    "goldUnit": "chaves de ouro",
+    "totalNote": "Abrir todos os portões custa {bronze} chaves de bronze e {gold} chaves de ouro no total."
+  },
+  "monsters": {
+    "title": "Monstros",
+    "intro": "Edição de 14 monstros (versão Moedas Coelho): 13 monstros, sem a Zona 1. Cada monstro tem 3 fases de HP, cada uma com recompensa.",
+    "version": "Data dos dados: {date}",
+    "filter": "Filtrar por zona",
+    "summary": "Mostrando {count} monstros · Poções sugeridas no total:",
+    "hp": "HP",
+    "reward": "Recompensa",
+    "cost": "Poções",
+    "final": "Recompensa final",
+    "total": "Poções sugeridas (total)",
+    "priority": "Prioridade",
+    "mustPass": "Passagem obrigatória",
+    "potionNote": "Poções sugeridas = total necessário para vencer o monstro, cerca de HP × 2.",
+    "cyclopsFinal": "Passagem obrigatória na rota de bandeira vermelha de 300K (🚩2/3)",
+    "names": {
+      "chief": "Chefe tribal",
+      "maskPriest": "Sacerdote mascarado",
+      "vineChucky": "Chucky de cipó",
+      "lavaMonster": "Monstro de lava",
+      "cyclops": "Ciclope"
+    }
+  },
+  "potions": {
+    "zone4Title": "Zona 4 · Poções só pela bandeira vermelha",
+    "zone5Title": "Zona 5 · Poções só pela bandeira vermelha",
+    "intro": "Versão padrão. Troque pela aposta; cada casa é a quantidade de poções daquele passo, avançando 🚩0/3 → 🚩1/3 → 🚩2/3.",
+    "bet": "Aposta",
+    "subtotal": "Subtotal",
+    "total": "Total {bet}",
+    "compare": "Poções totais por aposta",
+    "budget": "Minhas poções",
+    "budgetPlaceholder": "ex.: 500000",
+    "budgetResult": "Você chega até a casa {reached} de {total}",
+    "cyclopsNote": "As casas vermelhas são o Ciclope (teste em linha reta a 10×)."
+  },
+  "items": {
+    "energy": "Energia",
+    "bomb": "Bomba",
+    "cannon": "Canhão",
+    "rustyKey": "Chave enferrujada",
+    "goldKey": "Chave de ouro",
+    "chest": "Baú",
+    "purpleChest": "Baú roxo",
+    "lightningChest": "Baú relâmpago",
+    "jesterChest": "Baú do bobo",
+    "blueCrownChest": "Baú coroa azul",
+    "redCrownChest": "Baú coroa vermelha",
+    "royalChest": "Baú real",
+    "seasonChest": "Baú da temporada",
+    "thunderCoin": "Moeda trovão",
+    "goldCard": "Carta dourada",
+    "blueCard": "Carta azul",
+    "jokerCard": "Coringa",
+    "bunnyCoin": "Moedas coelho",
+    "gems": "Gemas",
+    "frame": "Moldura nova",
+    "background": "Fundo novo",
+    "mystery": "Prêmio misterioso"
+  },
+  "footer": {
+    "disclaimer": "Informação não oficial reunida pela comunidade de jogadores; sem vínculo com a publicadora do jogo. Os valores podem mudar com atualizações."
+  }
+}

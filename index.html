@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>魔法王國攻略資訊站｜大佬群CSL製作</title>
+  <meta name="description" content="魔法王國（Magical Land）大門鑰匙、怪物血量與獎勵、第四區／第五區紅旗藥水需求一次看。支援 9 種語言。">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#062a2b" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="魔法王國攻略資訊站｜大佬群CSL製作">
+  <meta property="og:description" content="大門鑰匙、怪物、藥水需求一次看，支援 9 種語言。">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap">
+  <link rel="modulepreload" href="assets/js/data.js">
+  <link rel="modulepreload" href="assets/js/i18n.js">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="nav.skip">跳到主要內容</a>
+
+  <header class="site-header">
+    <div class="site-header__bar container">
+      <a class="brand" href="#top">
+        <span class="brand__logo" aria-hidden="true">🏝️</span>
+        <span class="brand__name" data-i18n="site.short">魔法王國</span>
+      </a>
+
+      <nav class="site-nav" data-i18n-attr="aria-label:nav.label">
+        <ul role="list">
+          <li><a href="#gates" data-i18n="nav.gates">大門與鑰匙</a></li>
+          <li><a href="#monsters" data-i18n="nav.monsters">怪物</a></li>
+          <li><a href="#zone4" data-i18n="nav.zone4">第四區藥水</a></li>
+          <li><a href="#zone5" data-i18n="nav.zone5">第五區藥水</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" id="theme-toggle" data-i18n-attr="aria-label:common.theme;title:common.theme">
+          <span aria-hidden="true" class="theme-icon"></span>
+        </button>
+        <button type="button" class="lang-btn" popovertarget="lang-popover" data-i18n-attr="aria-label:common.language;title:common.language">
+          <span aria-hidden="true">🌐</span> <span id="lang-current">中文</span>
+        </button>
+        <div id="lang-popover" class="lang-popover" popover>
+          <ul id="lang-menu" class="lang-menu" role="list"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow" data-i18n="site.eyebrow">Coin Master · Magical Land</p>
+        <div class="hero__title-wrap">
+          <h1 class="hero__title" data-i18n="site.title">魔法王國攻略資訊站</h1>
+          <!-- 浮水印（斜放）：大佬群CSL製作 — 固定文字，不隨語言切換 -->
+          <span class="watermark" lang="zh-TW"><span aria-hidden="true">👑</span> 大佬群CSL製作</span>
+        </div>
+        <p class="hero__lead" data-i18n="site.lead">大門鑰匙、怪物血量與獎勵、紅旗藥水需求，一頁全部看完。</p>
+        <ul class="hero__cards" role="list">
+          <li><a class="hero-card" href="#gates"><span aria-hidden="true">🚪</span><span data-i18n="nav.gates">大門與鑰匙</span></a></li>
+          <li><a class="hero-card" href="#monsters"><span aria-hidden="true">👹</span><span data-i18n="nav.monsters">怪物</span></a></li>
+          <li><a class="hero-card" href="#zone4"><span aria-hidden="true">🧪</span><span data-i18n="nav.zone4">第四區藥水</span></a></li>
+          <li><a class="hero-card" href="#zone5"><span aria-hidden="true">🌋</span><span data-i18n="nav.zone5">第五區藥水</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="gates" aria-labelledby="gates-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="gates-title" data-i18n="gates.title">大門與鑰匙</h2>
+          <p data-i18n="gates.intro"></p>
+        </header>
+        <div id="gates-body"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="monsters" aria-labelledby="monsters-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="monsters-title" data-i18n="monsters.title">怪物圖鑑</h2>
+          <p data-i18n="monsters.intro"></p>
+          <p class="section__meta" id="monsters-version"></p>
+        </header>
+        <div id="monsters-body"></div>
+        <p class="note" data-i18n="monsters.potionNote"></p>
+      </div>
+    </section>
+
+    <section class="section" id="zone4" aria-labelledby="zone4-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="zone4-title" data-i18n="potions.zone4Title">第四區藥水需求</h2>
+          <p data-i18n="potions.intro"></p>
+        </header>
+        <div id="zone4-body"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="zone5" aria-labelledby="zone5-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="zone5-title" data-i18n="potions.zone5Title">第五區藥水需求</h2>
+          <p data-i18n="potions.intro"></p>
+        </header>
+        <div id="zone5-body"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="site-footer__disclaimer" data-i18n="footer.disclaimer"></p>
+      <!-- 頁尾署名：© {year} 大佬群CSL製作（year 由 app.js 自動帶入當年） -->
+      <p class="site-footer__credit" lang="zh-TW">© <span id="year">2026</span> 大佬群CSL製作</p>
+    </div>
+  </footer>
+
+  <noscript><p class="noscript">請開啟 JavaScript 以顯示完整資料。Please enable JavaScript.</p></noscript>
+</body>
+</html>

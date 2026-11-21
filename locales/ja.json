@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "マジカルランド攻略ガイド｜大佬群CSL",
+    "description": "マジカルランドのゲートと鍵、モンスターのHPと報酬、ゾーン4・5の赤旗ポーション必要量。"
+  },
+  "site": {
+    "short": "マジカルランド",
+    "eyebrow": "Coin Master · Magical Land",
+    "title": "マジカルランド攻略ガイド",
+    "lead": "ゲートと鍵、モンスターのHPと報酬、赤旗ポーション必要量を1ページで。"
+  },
+  "nav": {
+    "label": "メインメニュー",
+    "skip": "本文へスキップ",
+    "gates": "ゲートと鍵",
+    "monsters": "モンスター",
+    "zone4": "ゾーン4 ポーション",
+    "zone5": "ゾーン5 ポーション"
+  },
+  "common": {
+    "island": "島 {n}",
+    "zone": "ゾーン{n}",
+    "all": "すべて",
+    "new": "NEW",
+    "theme": "ダーク／ライト切替",
+    "language": "言語"
+  },
+  "gates": {
+    "title": "ゲートと鍵",
+    "intro": "ブロンズ（錆びた）鍵とゴールド鍵で各島のゲートを開け、報酬を手に入れよう。",
+    "bronze": "ブロンズ鍵",
+    "gold": "ゴールド鍵",
+    "cost": "コスト",
+    "bronzeUnit": "ブロンズ鍵",
+    "goldUnit": "ゴールド鍵",
+    "totalNote": "全ゲートを開けるには合計 ブロンズ鍵 {bronze} 本・ゴールド鍵 {gold} 本が必要です。"
+  },
+  "monsters": {
+    "title": "モンスター図鑑",
+    "intro": "14モンスター版（ウサギコイン版）— ゾーン1を除く計13体。各モンスターはHPが3段階あり、段階ごとに報酬があります。",
+    "version": "データ日付：{date}",
+    "filter": "ゾーンで絞り込み",
+    "summary": "{count} 体を表示中・推奨ポーション合計：",
+    "hp": "HP",
+    "reward": "報酬",
+    "cost": "消費ポーション",
+    "final": "最終報酬",
+    "total": "推奨ポーション（合計）",
+    "priority": "優先撃破",
+    "mustPass": "必須ルート",
+    "potionNote": "推奨ポーション＝そのモンスターを倒すのに必要な合計量で、おおよそ HP × 2 です。",
+    "cyclopsFinal": "赤旗 300K（🚩2/3）ルートで必ず通る",
+    "names": {
+      "chief": "部族の族長",
+      "maskPriest": "仮面の祭司",
+      "vineChucky": "ツタまみれのチャッキー",
+      "lavaMonster": "溶岩モンスター",
+      "cyclops": "サイクロプス"
+    }
+  },
+  "potions": {
+    "zone4Title": "ゾーン4・赤旗のみのポーション必要量",
+    "zone5Title": "ゾーン5・赤旗のみのポーション必要量",
+    "intro": "通常版。ベット別に切り替え。各マスはそのステップに必要なポーション量で、🚩0/3 → 🚩1/3 → 🚩2/3 の順に進みます。",
+    "bet": "ベット",
+    "subtotal": "小計",
+    "total": "{bet} 合計",
+    "compare": "ベット別 合計ポーション比較",
+    "budget": "所持ポーション",
+    "budgetPlaceholder": "例：500000",
+    "budgetResult": "{total} マス中 {reached} マスまで進めます",
+    "cyclopsNote": "赤いマスはサイクロプス（10倍直進テスト）。"
+  },
+  "items": {
+    "energy": "エネルギー",
+    "bomb": "爆弾",
+    "cannon": "大砲",
+    "rustyKey": "錆びた鍵",
+    "goldKey": "ゴールド鍵",
+    "chest": "宝箱",
+    "purpleChest": "紫の宝箱",
+    "lightningChest": "稲妻宝箱",
+    "jesterChest": "ジェスター宝箱",
+    "blueCrownChest": "青い王冠宝箱",
+    "redCrownChest": "赤い王冠宝箱",
+    "royalChest": "ロイヤル宝箱",
+    "seasonChest": "シーズン宝箱",
+    "thunderCoin": "雷神コイン",
+    "goldCard": "ゴールドカード",
+    "blueCard": "ブルーカード",
+    "jokerCard": "ジョーカー",
+    "bunnyCoin": "ウサギコイン",
+    "gems": "ジェム",
+    "frame": "新フレーム",
+    "background": "新背景",
+    "mystery": "ミステリー報酬"
+  },
+  "footer": {
+    "disclaimer": "プレイヤーコミュニティがまとめた非公式情報です。ゲーム運営とは関係ありません。数値はアップデートで変わる可能性があります。"
+  }
+}

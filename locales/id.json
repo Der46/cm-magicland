@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Panduan Magical Land | 大佬群CSL",
+    "description": "Gerbang & kunci, HP dan hadiah monster, serta kebutuhan ramuan jalur bendera merah Zona 4 dan 5 di Magical Land."
+  },
+  "site": {
+    "short": "Magical Land",
+    "eyebrow": "Coin Master · Magical Land",
+    "title": "Panduan Magical Land",
+    "lead": "Gerbang & kunci, HP dan hadiah monster, kebutuhan ramuan bendera merah — semua di satu halaman."
+  },
+  "nav": {
+    "label": "Menu utama",
+    "skip": "Lompat ke konten utama",
+    "gates": "Gerbang & Kunci",
+    "monsters": "Monster",
+    "zone4": "Ramuan Zona 4",
+    "zone5": "Ramuan Zona 5"
+  },
+  "common": {
+    "island": "Pulau {n}",
+    "zone": "Zona {n}",
+    "all": "Semua",
+    "new": "BARU",
+    "theme": "Ganti gelap / terang",
+    "language": "Bahasa"
+  },
+  "gates": {
+    "title": "Gerbang & Kunci",
+    "intro": "Buka gerbang setiap pulau dengan Kunci Perunggu (berkarat) dan Kunci Emas untuk mendapatkan hadiah berikut.",
+    "bronze": "Kunci Perunggu",
+    "gold": "Kunci Emas",
+    "cost": "Biaya",
+    "bronzeUnit": "kunci perunggu",
+    "goldUnit": "kunci emas",
+    "totalNote": "Membuka semua gerbang butuh total {bronze} kunci perunggu dan {gold} kunci emas."
+  },
+  "monsters": {
+    "title": "Monster",
+    "intro": "Edisi 14 monster (versi Koin Kelinci) — 13 monster, tanpa Zona 1. Tiap monster punya 3 tahap HP, masing-masing berhadiah.",
+    "version": "Tanggal data: {date}",
+    "filter": "Filter per zona",
+    "summary": "Menampilkan {count} monster · Total ramuan disarankan:",
+    "hp": "HP",
+    "reward": "Hadiah",
+    "cost": "Ramuan",
+    "final": "Hadiah akhir",
+    "total": "Ramuan disarankan (total)",
+    "priority": "Prioritas",
+    "mustPass": "Wajib dilewati",
+    "potionNote": "Ramuan disarankan = total ramuan untuk mengalahkan monster, kira-kira HP × 2.",
+    "cyclopsFinal": "Wajib dilewati di jalur bendera merah 300K (🚩2/3)",
+    "names": {
+      "chief": "Kepala Suku",
+      "maskPriest": "Pendeta Topeng",
+      "vineChucky": "Chucky Sulur",
+      "lavaMonster": "Monster Lava",
+      "cyclops": "Cyclops"
+    }
+  },
+  "potions": {
+    "zone4Title": "Zona 4 · Kebutuhan Ramuan Jalur Bendera Merah",
+    "zone5Title": "Zona 5 · Kebutuhan Ramuan Jalur Bendera Merah",
+    "intro": "Versi standar. Pilih berdasarkan taruhan; tiap sel adalah ramuan untuk langkah itu, maju berurutan 🚩0/3 → 🚩1/3 → 🚩2/3.",
+    "bet": "Taruhan",
+    "subtotal": "Subtotal",
+    "total": "Total {bet}",
+    "compare": "Perbandingan total ramuan per taruhan",
+    "budget": "Ramuan saya",
+    "budgetPlaceholder": "mis. 500000",
+    "budgetResult": "Kamu bisa sampai langkah {reached} dari {total}",
+    "cyclopsNote": "Sel merah adalah Cyclops (uji jalan lurus 10×)."
+  },
+  "items": {
+    "energy": "Energi",
+    "bomb": "Bom",
+    "cannon": "Meriam",
+    "rustyKey": "Kunci Berkarat",
+    "goldKey": "Kunci Emas",
+    "chest": "Peti",
+    "purpleChest": "Peti Ungu",
+    "lightningChest": "Peti Petir",
+    "jesterChest": "Peti Badut",
+    "blueCrownChest": "Peti Mahkota Biru",
+    "redCrownChest": "Peti Mahkota Merah",
+    "royalChest": "Peti Kerajaan",
+    "seasonChest": "Peti Musim",
+    "thunderCoin": "Koin Petir",
+    "goldCard": "Kartu Emas",
+    "blueCard": "Kartu Biru",
+    "jokerCard": "Kartu Joker",
+    "bunnyCoin": "Koin Kelinci",
+    "gems": "Permata",
+    "frame": "Bingkai Baru",
+    "background": "Latar Baru",
+    "mystery": "Hadiah Misteri"
+  },
+  "footer": {
+    "disclaimer": "Info tidak resmi yang dihimpun komunitas pemain; tidak berafiliasi dengan penerbit game. Angka dapat berubah seiring pembaruan."
+  }
+}

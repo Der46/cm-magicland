@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Guía de Magical Land | 大佬群CSL",
+    "description": "Puertas y llaves, PV y recompensas de monstruos, y pociones necesarias por la ruta de bandera roja en las Zonas 4 y 5 de Magical Land."
+  },
+  "site": {
+    "short": "Tierra Mágica",
+    "eyebrow": "Coin Master · Magical Land",
+    "title": "Guía de la Tierra Mágica",
+    "lead": "Puertas y llaves, PV y recompensas de monstruos, y pociones de bandera roja — todo en una página."
+  },
+  "nav": {
+    "label": "Menú principal",
+    "skip": "Ir al contenido principal",
+    "gates": "Puertas y llaves",
+    "monsters": "Monstruos",
+    "zone4": "Pociones Zona 4",
+    "zone5": "Pociones Zona 5"
+  },
+  "common": {
+    "island": "Isla {n}",
+    "zone": "Zona {n}",
+    "all": "Todas",
+    "new": "NUEVO",
+    "theme": "Cambiar oscuro / claro",
+    "language": "Idioma"
+  },
+  "gates": {
+    "title": "Puertas y llaves",
+    "intro": "Abre la puerta de cada isla con Llaves de bronce (oxidadas) o Llaves de oro para obtener estas recompensas.",
+    "bronze": "Llaves de bronce",
+    "gold": "Llaves de oro",
+    "cost": "Coste",
+    "bronzeUnit": "llaves de bronce",
+    "goldUnit": "llaves de oro",
+    "totalNote": "Abrir todas las puertas cuesta {bronze} llaves de bronce y {gold} llaves de oro en total."
+  },
+  "monsters": {
+    "title": "Monstruos",
+    "intro": "Edición de 14 monstruos (versión Monedas Conejo): 13 monstruos, sin la Zona 1. Cada monstruo tiene 3 fases de PV, cada una con recompensa.",
+    "version": "Fecha de los datos: {date}",
+    "filter": "Filtrar por zona",
+    "summary": "Mostrando {count} monstruos · Pociones sugeridas en total:",
+    "hp": "PV",
+    "reward": "Recompensa",
+    "cost": "Pociones",
+    "final": "Recompensa final",
+    "total": "Pociones sugeridas (total)",
+    "priority": "Prioridad",
+    "mustPass": "Paso obligado",
+    "potionNote": "Pociones sugeridas = total necesario para superar al monstruo, aproximadamente PV × 2.",
+    "cyclopsFinal": "Paso obligado en la ruta de bandera roja de 300K (🚩2/3)",
+    "names": {
+      "chief": "Jefe tribal",
+      "maskPriest": "Sacerdote enmascarado",
+      "vineChucky": "Chucky enredado",
+      "lavaMonster": "Monstruo de lava",
+      "cyclops": "Cíclope"
+    }
+  },
+  "potions": {
+    "zone4Title": "Zona 4 · Pociones solo por bandera roja",
+    "zone5Title": "Zona 5 · Pociones solo por bandera roja",
+    "intro": "Versión estándar. Cambia según la apuesta; cada casilla es la cantidad de pociones de ese paso, avanzando 🚩0/3 → 🚩1/3 → 🚩2/3.",
+    "bet": "Apuesta",
+    "subtotal": "Subtotal",
+    "total": "Total {bet}",
+    "compare": "Pociones totales por apuesta",
+    "budget": "Mis pociones",
+    "budgetPlaceholder": "p. ej. 500000",
+    "budgetResult": "Llegas hasta la casilla {reached} de {total}",
+    "cyclopsNote": "Las casillas rojas son el Cíclope (prueba en línea recta a 10×)."
+  },
+  "items": {
+    "energy": "Energía",
+    "bomb": "Bomba",
+    "cannon": "Cañón",
+    "rustyKey": "Llave oxidada",
+    "goldKey": "Llave de oro",
+    "chest": "Cofre",
+    "purpleChest": "Cofre morado",
+    "lightningChest": "Cofre relámpago",
+    "jesterChest": "Cofre bufón",
+    "blueCrownChest": "Cofre corona azul",
+    "redCrownChest": "Cofre corona roja",
+    "royalChest": "Cofre real",
+    "seasonChest": "Cofre de temporada",
+    "thunderCoin": "Moneda trueno",
+    "goldCard": "Carta dorada",
+    "blueCard": "Carta azul",
+    "jokerCard": "Comodín",
+    "bunnyCoin": "Monedas conejo",
+    "gems": "Gemas",
+    "frame": "Marco nuevo",
+    "background": "Fondo nuevo",
+    "mystery": "Premio misterioso"
+  },
+  "footer": {
+    "disclaimer": "Información no oficial recopilada por la comunidad de jugadores; sin relación con la editora del juego. Los valores pueden cambiar con las actualizaciones."
+  }
+}

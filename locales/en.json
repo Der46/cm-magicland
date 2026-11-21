@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "Magical Land Guide | by 大佬群CSL",
+    "description": "Magical Land gates & keys, monster HP and rewards, and red-flag potion requirements for Zones 4 and 5."
+  },
+  "site": {
+    "short": "Magical Land",
+    "eyebrow": "Coin Master · Magical Land",
+    "title": "Magical Land Guide",
+    "lead": "Gates & keys, monster HP and rewards, and red-flag potion requirements — all on one page."
+  },
+  "nav": {
+    "label": "Main menu",
+    "skip": "Skip to main content",
+    "gates": "Gates & Keys",
+    "monsters": "Monsters",
+    "zone4": "Zone 4 Potions",
+    "zone5": "Zone 5 Potions"
+  },
+  "common": {
+    "island": "Island {n}",
+    "zone": "Zone {n}",
+    "all": "All",
+    "new": "NEW",
+    "theme": "Toggle dark / light",
+    "language": "Language"
+  },
+  "gates": {
+    "title": "Gates & Keys",
+    "intro": "Open each island's gate with Bronze (rusty) Keys or Gold Keys to claim these rewards.",
+    "bronze": "Bronze Keys",
+    "gold": "Gold Keys",
+    "cost": "Cost",
+    "bronzeUnit": "bronze keys",
+    "goldUnit": "gold keys",
+    "totalNote": "Opening every gate takes {bronze} bronze keys and {gold} gold keys in total."
+  },
+  "monsters": {
+    "title": "Monsters",
+    "intro": "14-monster edition (Bunny Coin version) — 13 monsters, Zone 1 excluded. Each monster has three HP stages, each with its own reward.",
+    "version": "Data date: {date}",
+    "filter": "Filter by zone",
+    "summary": "Showing {count} monsters · Suggested potions in total:",
+    "hp": "HP",
+    "reward": "Reward",
+    "cost": "Potions",
+    "final": "Final reward",
+    "total": "Suggested potions (total)",
+    "priority": "Top priority",
+    "mustPass": "Must pass",
+    "potionNote": "Suggested potions = total potions needed to clear the monster, roughly HP × 2.",
+    "cyclopsFinal": "Unavoidable on the 300K red-flag route (🚩2/3)",
+    "names": {
+      "chief": "Tribal Chief",
+      "maskPriest": "Mask Priest",
+      "vineChucky": "Vine Chucky",
+      "lavaMonster": "Lava Monster",
+      "cyclops": "Cyclops"
+    }
+  },
+  "potions": {
+    "zone4Title": "Zone 4 · Red-Flag-Only Potion Needs",
+    "zone5Title": "Zone 5 · Red-Flag-Only Potion Needs",
+    "intro": "Standard version. Switch by bet; each cell is the potions needed for that step, moving 🚩0/3 → 🚩1/3 → 🚩2/3 in order.",
+    "bet": "Bet",
+    "subtotal": "Subtotal",
+    "total": "{bet} total",
+    "compare": "Total potions by bet",
+    "budget": "My potions",
+    "budgetPlaceholder": "e.g. 500000",
+    "budgetResult": "You can reach step {reached} of {total}",
+    "cyclopsNote": "Red cells are the Cyclops (tested at 10× straight run)."
+  },
+  "items": {
+    "energy": "Energy",
+    "bomb": "Bomb",
+    "cannon": "Cannon",
+    "rustyKey": "Rusty Key",
+    "goldKey": "Gold Key",
+    "chest": "Chest",
+    "purpleChest": "Purple Chest",
+    "lightningChest": "Lightning Chest",
+    "jesterChest": "Jester Chest",
+    "blueCrownChest": "Blue Crown Chest",
+    "redCrownChest": "Red Crown Chest",
+    "royalChest": "Royal Chest",
+    "seasonChest": "Season Chest",
+    "thunderCoin": "Thunder Coin",
+    "goldCard": "Gold Card",
+    "blueCard": "Blue Card",
+    "jokerCard": "Joker Card",
+    "bunnyCoin": "Bunny Coins",
+    "gems": "Gems",
+    "frame": "New Frame",
+    "background": "New Background",
+    "mystery": "Mystery Reward"
+  },
+  "footer": {
+    "disclaimer": "Unofficial fan-made info compiled by the player community; not affiliated with the game's publisher. Values may change with updates."
+  }
+}

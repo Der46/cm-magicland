@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "魔法王國攻略資訊站｜大佬群CSL製作",
+    "description": "魔法王國大門鑰匙、怪物血量與獎勵、第四區／第五區紅旗藥水需求一次看。"
+  },
+  "site": {
+    "short": "魔法王國",
+    "eyebrow": "Coin Master · 魔法王國",
+    "title": "魔法王國攻略資訊站",
+    "lead": "大門鑰匙、怪物血量與獎勵、紅旗藥水需求，一頁全部看完。"
+  },
+  "nav": {
+    "label": "主選單",
+    "skip": "跳到主要內容",
+    "gates": "大門與鑰匙",
+    "monsters": "怪物圖鑑",
+    "zone4": "第四區藥水",
+    "zone5": "第五區藥水"
+  },
+  "common": {
+    "island": "島嶼 {n}",
+    "zone": "第{n}區",
+    "all": "全部",
+    "new": "NEW",
+    "theme": "切換深色／淺色",
+    "language": "語言"
+  },
+  "gates": {
+    "title": "大門與鑰匙",
+    "intro": "用生鏽鑰匙（銅鑰匙）與金鑰匙開啟各島嶼的大門，換取下列獎勵。",
+    "bronze": "生鏽鑰匙（銅）",
+    "gold": "金鑰匙",
+    "cost": "花費",
+    "bronzeUnit": "把生鏽鑰匙",
+    "goldUnit": "把金鑰匙",
+    "totalNote": "全部大門開完共需 {bronze} 把生鏽鑰匙、{gold} 把金鑰匙。"
+  },
+  "monsters": {
+    "title": "怪物圖鑑",
+    "intro": "14 怪物版（兔子幣版本），不含第一區共 13 隻。每隻怪物有三段血量，打完每段都有獎勵。",
+    "version": "資料日期：{date}",
+    "filter": "依區域篩選",
+    "summary": "目前顯示 {count} 隻，建議藥水總量：",
+    "hp": "血量",
+    "reward": "獎勵內容",
+    "cost": "花費藥水",
+    "final": "最終獎勵",
+    "total": "建議藥水量（總計）",
+    "priority": "優先拿下",
+    "mustPass": "必經之路",
+    "potionNote": "建議藥水量為通過該怪物所需的總藥水量，估算約等於血量 × 2。",
+    "cyclopsFinal": "紅旗 300K（🚩2/3）的必經之路",
+    "names": {
+      "chief": "部落酋長",
+      "maskPriest": "獵面祭司",
+      "vineChucky": "被綠的恰吉",
+      "lavaMonster": "熔岩怪",
+      "cyclops": "獨眼怪"
+    }
+  },
+  "potions": {
+    "zone4Title": "第四區・只走紅旗藥水需求",
+    "zone5Title": "第五區・只走紅旗藥水需求",
+    "intro": "一般版。依下注倍數切換，每一格是走到下一步需要的藥水量；🚩0/3 → 🚩1/3 → 🚩2/3 依序前進。",
+    "bet": "下注倍數",
+    "subtotal": "小計",
+    "total": "{bet} 總計",
+    "compare": "各下注倍數總藥水比較",
+    "budget": "我的藥水",
+    "budgetPlaceholder": "例如 500000",
+    "budgetResult": "可以走到第 {reached} / {total} 格",
+    "cyclopsNote": "紅色格子是獨眼怪（10 倍直走測試）。"
+  },
+  "items": {
+    "energy": "能量",
+    "bomb": "炸彈",
+    "cannon": "砲台",
+    "rustyKey": "生鏽鑰匙",
+    "goldKey": "金鑰匙",
+    "chest": "寶箱",
+    "purpleChest": "紫色寶箱",
+    "lightningChest": "雷箱",
+    "jesterChest": "小丑寶箱",
+    "blueCrownChest": "藍色皇冠寶箱",
+    "redCrownChest": "紅冠寶箱",
+    "royalChest": "皇家寶箱",
+    "seasonChest": "賽季寶箱",
+    "thunderCoin": "雷神幣",
+    "goldCard": "金卡",
+    "blueCard": "藍卡",
+    "jokerCard": "鬼牌",
+    "bunnyCoin": "兔子幣",
+    "gems": "寶石",
+    "frame": "新相框",
+    "background": "新背景",
+    "mystery": "神秘獎勵"
+  },
+  "footer": {
+    "disclaimer": "本站為玩家社群整理的非官方資訊，與遊戲官方無關；數值可能隨版本更新而變動。"
+  }
+}

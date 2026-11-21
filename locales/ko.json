@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "title": "매지컬 랜드 공략 가이드 | 大佬群CSL",
+    "description": "매지컬 랜드의 관문과 열쇠, 몬스터 HP와 보상, 4·5구역 빨간 깃발 물약 필요량."
+  },
+  "site": {
+    "short": "매지컬 랜드",
+    "eyebrow": "Coin Master · Magical Land",
+    "title": "매지컬 랜드 공략 가이드",
+    "lead": "관문과 열쇠, 몬스터 HP와 보상, 빨간 깃발 물약 필요량을 한 페이지에서."
+  },
+  "nav": {
+    "label": "메인 메뉴",
+    "skip": "본문으로 건너뛰기",
+    "gates": "관문과 열쇠",
+    "monsters": "몬스터",
+    "zone4": "4구역 물약",
+    "zone5": "5구역 물약"
+  },
+  "common": {
+    "island": "섬 {n}",
+    "zone": "{n}구역",
+    "all": "전체",
+    "new": "NEW",
+    "theme": "다크 / 라이트 전환",
+    "language": "언어"
+  },
+  "gates": {
+    "title": "관문과 열쇠",
+    "intro": "청동(녹슨) 열쇠와 황금 열쇠로 각 섬의 관문을 열고 보상을 받으세요.",
+    "bronze": "청동 열쇠",
+    "gold": "황금 열쇠",
+    "cost": "비용",
+    "bronzeUnit": "청동 열쇠",
+    "goldUnit": "황금 열쇠",
+    "totalNote": "모든 관문을 열려면 청동 열쇠 {bronze}개, 황금 열쇠 {gold}개가 필요합니다."
+  },
+  "monsters": {
+    "title": "몬스터 도감",
+    "intro": "14 몬스터판(토끼 코인 버전) — 1구역 제외 총 13마리. 몬스터마다 HP 3단계가 있고 단계마다 보상이 있습니다.",
+    "version": "데이터 날짜: {date}",
+    "filter": "구역별 필터",
+    "summary": "{count}마리 표시 중 · 권장 물약 합계:",
+    "hp": "HP",
+    "reward": "보상",
+    "cost": "소모 물약",
+    "final": "최종 보상",
+    "total": "권장 물약(합계)",
+    "priority": "우선 처치",
+    "mustPass": "필수 경로",
+    "potionNote": "권장 물약 = 해당 몬스터 처치에 필요한 총 물약량으로, 대략 HP × 2입니다.",
+    "cyclopsFinal": "빨간 깃발 300K(🚩2/3) 경로의 필수 관문",
+    "names": {
+      "chief": "부족 족장",
+      "maskPriest": "가면 사제",
+      "vineChucky": "덩굴 처키",
+      "lavaMonster": "용암 괴물",
+      "cyclops": "외눈박이"
+    }
+  },
+  "potions": {
+    "zone4Title": "4구역 · 빨간 깃발만 갈 때 물약 필요량",
+    "zone5Title": "5구역 · 빨간 깃발만 갈 때 물약 필요량",
+    "intro": "일반판. 베팅별로 전환하며, 각 칸은 해당 단계에 필요한 물약량입니다. 🚩0/3 → 🚩1/3 → 🚩2/3 순서로 진행합니다.",
+    "bet": "베팅",
+    "subtotal": "소계",
+    "total": "{bet} 합계",
+    "compare": "베팅별 총 물약 비교",
+    "budget": "보유 물약",
+    "budgetPlaceholder": "예: 500000",
+    "budgetResult": "{total}칸 중 {reached}칸까지 갈 수 있어요",
+    "cyclopsNote": "빨간 칸은 외눈박이입니다(10배 직진 테스트)."
+  },
+  "items": {
+    "energy": "에너지",
+    "bomb": "폭탄",
+    "cannon": "대포",
+    "rustyKey": "녹슨 열쇠",
+    "goldKey": "황금 열쇠",
+    "chest": "상자",
+    "purpleChest": "보라 상자",
+    "lightningChest": "번개 상자",
+    "jesterChest": "광대 상자",
+    "blueCrownChest": "파란 왕관 상자",
+    "redCrownChest": "빨간 왕관 상자",
+    "royalChest": "로열 상자",
+    "seasonChest": "시즌 상자",
+    "thunderCoin": "천둥 코인",
+    "goldCard": "골드 카드",
+    "blueCard": "블루 카드",
+    "jokerCard": "조커 카드",
+    "bunnyCoin": "토끼 코인",
+    "gems": "보석",
+    "frame": "새 프레임",
+    "background": "새 배경",
+    "mystery": "미스터리 보상"
+  },
+  "footer": {
+    "disclaimer": "플레이어 커뮤니티가 정리한 비공식 정보이며 게임사와 무관합니다. 수치는 업데이트에 따라 달라질 수 있습니다."
+  }
+}
