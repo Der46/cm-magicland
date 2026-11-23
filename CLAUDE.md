@@ -39,6 +39,10 @@ python -m http.server 8000
 6. **區塊順序**：第四區藥水 → 第五區藥水 → 大門與鑰匙 → 怪物圖鑑（導覽列、首頁卡片、`renderAll()` 都依此順序）。
 7. **只有深色主題**：沒有亮色模式、沒有主題切換按鈕。
 8. **圖示一律用 SVG**（`icons.js`），不要用 emoji 或遊戲官方圖片。
+9. **字型**（Google Fonts 載入 Baloo 2 與 Chiron GoRound TC）：
+   - 內文 `--font-body`：`"Chiron GoRound TC", "Noto Sans TC", "Microsoft JhengHei", -apple-system, "Segoe UI", sans-serif`
+   - 標題／數字 `--font-display`：`"Baloo 2", "Chiron GoRound TC", -apple-system, "Segoe UI", sans-serif`
+10. **文字顏色**：`--text` / `--muted` 取背景色 `#071c1d`（色相約 182°）的互補色相（約 2°，淡珊瑚粉），只調明度確保可讀；改背景色時要一起重算。
 
 ## 已移除、不要加回的功能
 
