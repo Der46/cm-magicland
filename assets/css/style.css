@@ -30,8 +30,9 @@
     --bg-alt: #0b2627;
     --surface: #102f30;
     --surface-2: #143738;
-    --text: #e6f4ef;
-    --muted: #9cbdb6;
+    /* 文字色＝背景色（#071c1d，色相約 182°）的互補色相（約 2°），提高明度以確保可讀性 */
+    --text: hsl(2 72% 92%);
+    --muted: hsl(2 32% 72%);
     --border: #22494a;
 
     --brand: #2dd4bf;
@@ -51,9 +52,8 @@
     --shadow: 0 1px 2px rgb(0 0 0 / 0.06), 0 8px 24px -12px rgb(0 0 0 / 0.25);
     --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
 
-    --font-display: 'Baloo 2', system-ui, sans-serif;
-    --font-body: system-ui, -apple-system, 'Segoe UI', 'Noto Sans TC', 'Noto Sans JP', 'Noto Sans KR',
-      'Noto Sans Thai', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+    --font-display: 'Baloo 2', 'Chiron GoRound TC', -apple-system, 'Segoe UI', sans-serif;
+    --font-body: 'Chiron GoRound TC', 'Noto Sans TC', 'Microsoft JhengHei', -apple-system, 'Segoe UI', sans-serif;
 
     --space: clamp(1rem, 0.6rem + 1.6vw, 2rem);
     --header-h: 3.75rem;
@@ -77,7 +77,7 @@
   a { color: var(--brand); text-underline-offset: 0.2em; }
   :focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 4px; }
 
-  h2 { font-family: var(--font-display), var(--font-body); font-size: clamp(1.6rem, 1.2rem + 1.8vw, 2.4rem); }
+  h2 { font-family: var(--font-display); font-size: clamp(1.6rem, 1.2rem + 1.8vw, 2.4rem); }
   h3 { font-size: 1.1rem; }
 
   table { border-collapse: collapse; inline-size: 100%; }
@@ -112,7 +112,7 @@
   }
   .brand {
     display: flex; align-items: center; gap: 0.5rem;
-    font-family: var(--font-display), var(--font-body); font-weight: 800; font-size: 1.2rem;
+    font-family: var(--font-display); font-weight: 800; font-size: 1.2rem;
     color: var(--text); text-decoration: none; white-space: nowrap;
   }
   .brand__logo { font-size: 1.5rem; }
@@ -155,7 +155,7 @@
   /* Footer */
   .site-footer {
     padding-block: calc(var(--space) * 1.5);
-    background: #041314; color: #d9efe9;
+    background: #041314; color: var(--text);
     text-align: center;
     & .container { display: grid; gap: 0.5rem; }
   }
@@ -240,7 +240,7 @@
     position: relative; display: flex; flex-wrap: nowrap; align-items: center; gap: 0.5rem 0.9rem;
   }
   .hero__title {
-    font-family: var(--font-display), var(--font-body); font-weight: 800;
+    font-family: var(--font-display); font-weight: 800;
     font-size: clamp(2.2rem, 1.4rem + 4vw, 4.2rem);
     background: linear-gradient(180deg, #ffd65a, var(--gold) 45%, var(--gold-deep));
     -webkit-background-clip: text; background-clip: text; color: transparent;
@@ -266,7 +266,7 @@
   }
   .watermark__top, .watermark__bottom { font-size: clamp(0.5rem, 0.45rem + 0.15vw, 0.6rem); font-weight: 700; letter-spacing: 0.2em; padding-inline-start: 0.2em; }
   .watermark__main {
-    font-family: var(--font-display), var(--font-body); font-weight: 800;
+    font-family: var(--font-display); font-weight: 800;
     font-size: clamp(0.95rem, 0.8rem + 0.5vw, 1.2rem); letter-spacing: 0.05em;
     border-block: 1px solid currentColor; padding-inline: 0.2rem; margin-block: 0.05rem;
   }
@@ -310,7 +310,7 @@
   /* 標題用深色底＋金屬色框，讓銅／金鑰匙圖示清楚可見 */
   .gate-col__title {
     display: flex; align-items: center; gap: 0.5rem; margin-block-end: 0.75rem;
-    font-family: var(--font-display), var(--font-body); font-size: 1.4rem;
+    font-family: var(--font-display); font-size: 1.4rem;
     padding: 0.5rem 1rem; border-radius: 999px; color: #fdf2e0;
     background: linear-gradient(90deg, #2a1a10, #1a100a);
     border: 2px solid var(--accent);
@@ -384,7 +384,7 @@
     position: absolute; inset-block-end: -0.45rem; inset-inline-start: -0.45rem;
     display: grid; place-items: center; inline-size: 1.6rem; aspect-ratio: 1;
     border-radius: 50%; background: var(--z); color: #fff; border: 2px solid var(--surface);
-    font-family: var(--font-display), var(--font-body); font-weight: 800; font-size: 0.85rem;
+    font-family: var(--font-display); font-weight: 800; font-size: 0.85rem;
   }
   .monster__name { font-size: 1.15rem; }
   .monster__zone { font-size: 0.8rem; color: var(--muted); }
@@ -419,7 +419,7 @@
     display: flex; justify-content: space-between; align-items: center;
     padding: 0.7rem 1rem; background: var(--surface-2); border-block-start: 1px solid var(--border);
     font-size: 0.9rem; font-weight: 600;
-    & strong { font-family: var(--font-display), var(--font-body); font-size: 1.4rem; color: var(--z); }
+    & strong { font-family: var(--font-display); font-size: 1.4rem; color: var(--z); }
   }
 
   /* 藥水：下注分頁 */
@@ -472,7 +472,7 @@
   .potion-total {
     display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem;
     font-weight: 700;
-    & strong { font-family: var(--font-display), var(--font-body); font-size: 2rem; color: var(--brand); }
+    & strong { font-family: var(--font-display); font-size: 2rem; color: var(--brand); }
     & small { color: var(--muted); }
   }
 
